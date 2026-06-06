@@ -23,7 +23,7 @@ console.log("└─────────────────────�
 // =====================================================
 const BAR = "1H"
 const MIN_KLINE = 120
-const TOP_N = 50
+const TOP_N = 100
 const MIN_VOL_USDT = 20_000_000
 const CONCURRENCY = 2
 const FETCH_TIMEOUT = 10000
@@ -158,7 +158,7 @@ async function runPool(items, worker, concurrency) {
 // =====================================================
 function saveResults(symbols, executionTime) {
   const output = {
-    timestamp: timestamp,
+    // timestamp: timestamp,
     localTime: `${dateStr} ${timeStr}`,
     executionTime: `${executionTime}秒`,
     count: symbols.length,
@@ -193,7 +193,7 @@ async function sendSimpleEmail(symbols) {
   }
 
   // 只发筛选时间和symbol名字
-  const text = `筛选时间: ${dateStr} ${timeStr}\n符合条件币种:\n${symbols.join('\n') || '无'}`
+  // const text = `筛选时间: ${dateStr} ${timeStr}\n符合条件币种:\n${symbols.join('\n') || '无'}`
   const html = `<p>筛选时间: ${dateStr} ${timeStr}</p><p>符合条件币种:</p><p>${symbols.join('<br>') || '无'}</p>`
 
   try {
@@ -230,7 +230,7 @@ async function main() {
   if (!tickersRes.data) throw new Error("获取 ticker 失败")
 
   const top = tickersRes.data
-    .filter(t => t.instId.endsWith("USDT-SWAP"))
+    // .filter(t => t.instId.endsWith("USDT-SWAP"))
     .map(t => ({ symbol: t.instId, volUsdt: (+t.last) * (+t.vol24h) }))
     .filter(t => t.volUsdt > MIN_VOL_USDT)
     .sort((a, b) => b.volUsdt - a.volUsdt)
