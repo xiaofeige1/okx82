@@ -121,7 +121,7 @@ async function processSymbol(t) {
     if (currentHigh <= todayMid) return null
 
     // 只返回symbol名称
-    return t.symbol.replace('-USDT-SWAP', '')
+    return t.symbol.replace(' ', '')
   } catch (err) {
     return null
   }
@@ -194,7 +194,7 @@ async function sendSimpleEmail(symbols) {
 
   // 只发筛选时间和symbol名字
   // const text = `筛选时间: ${dateStr} ${timeStr}\n符合条件币种:\n${symbols.join('\n') || '无'}`
-  const html = `<p>筛选时间: ${dateStr} ${timeStr}</p><p>符合条件币种:</p><p>${symbols.join('<br>') || '无'}</p>`
+  const html = `<p>筛选时间: ${timeStr}</p><p>符合条件币种:</p><p>${symbols.join('<br>') || '无'}</p>`
 
   try {
     await axios.post(
