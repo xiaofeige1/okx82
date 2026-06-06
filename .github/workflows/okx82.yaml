@@ -32,7 +32,7 @@ jobs:
         run: node okx82.js
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_TO: ${{ secrets.RECIPIENT_EMAIL }}
 
       - name: Commit result
         run: |
