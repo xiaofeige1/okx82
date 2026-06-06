@@ -192,17 +192,22 @@ async function sendSimpleEmail(symbols) {
     return
   }
 
+  if (symbols.length === 0) {  // 更好的写法
+    console.log('无符合条件币种，跳过邮件发送')
+    return
+  }
+
   // 只发筛选时间和symbol名字
   // const text = `筛选时间: ${dateStr} ${timeStr}\n符合条件币种:\n${symbols.join('\n') || '无'}`
-  const html = `<p>筛选时间: ${timeStr}</p><p>符合条件币种:</p><p>${symbols.join('<br>') || '无'}</p>`
+  const html = `<p>筛选时间: ${timeStr}</p><p>${symbols.join('<br>')}</p>`
 
   try {
     await axios.post(
       "https://api.resend.com/emails",
       {
-        from: `OKX Screener <${senderEmail}>`,
+        from: `OKX82 Screener <${senderEmail}>`,
         to: [recipientEmail],
-        subject: `📈 OKX筛选结果 (${dateStr} ${timeStr})`,
+        subject: `筛选结果`,
         // text: text,
         html: html
       },
