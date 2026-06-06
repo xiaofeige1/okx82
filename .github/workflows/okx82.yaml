@@ -2,21 +2,16 @@ name: okx82 screener
 
 on:
   schedule:
-    - cron: "18 0,4,8,12 * * *"
-
+    - cron: "18 1,4,7,10,13 * * *"
   workflow_dispatch:
 
 jobs:
-
   run:
-
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
-
+    
     steps:
-
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -32,16 +27,14 @@ jobs:
         run: node okx82.js
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          EMAIL_TO: ${{ secrets.RECIPIENT_EMAIL }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}  # ✅ 修复这里
+          # 如果你有 SENDER_EMAIL 也可以加上
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL || 'onboarding@resend.dev' }}
 
       - name: Commit result
         run: |
-
           git config user.name github-actions
           git config user.email github-actions@github.com
-
           git add result.json
-
           git diff --cached --quiet || git commit -m "update result"
-
           git push
