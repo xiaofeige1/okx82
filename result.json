@@ -1,9 +1,17 @@
 {
-  "localTime": "2026/6/8 05:09:20",
-  "executionTime": "5.08秒",
-  "count": 2,
+  "localTime": "2026/6/8 11:23:30",
+  "executionTime": "4.62秒",
+  "count": 10,
   "symbols": [
     "HYPE-USDT-SWAP",
-    "BEAT-USDT-SWAP"
+    "MU-USDT-SWAP",
+    "INJ-USDT-SWAP",
+    "BEAT-USDT-SWAP",
+    "SNDK-USDT-SWAP",
+    "BERA-USDT-SWAP",
+    "ALLO-USDT-SWAP",
+    "LIT-USDT-SWAP",
+    "SOXL-USDT-SWAP",
+    "NVDA-USDT-SWAP"
   ]
 }
