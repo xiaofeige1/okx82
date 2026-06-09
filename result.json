@@ -1,33 +1,9 @@
 {
-  "localTime": "2026/6/8 16:32:56",
-  "executionTime": "6.65秒",
-  "count": 26,
+  "localTime": "2026/6/9 04:41:51",
+  "executionTime": "4.79秒",
+  "count": 2,
   "symbols": [
-    "ZEC-USDT-SWAP",
-    "XAG-USDT-SWAP",
-    "HYPE-USDT-SWAP",
-    "YFI-USDT-SWAP",
-    "OKB-USDT-SWAP",
-    "GIGGLE-USDT-SWAP",
-    "TRUMP-USDT-SWAP",
     "MU-USDT-SWAP",
-    "INJ-USDT-SWAP",
-    "ORDI-USDT-SWAP",
-    "SNDK-USDT-SWAP",
-    "MRVL-USDT-SWAP",
-    "BERA-USDT-SWAP",
-    "BEAT-USDT-SWAP",
-    "APE-USDT-SWAP",
-    "SOXL-USDT-SWAP",
-    "TON-USDT-SWAP",
-    "CBRS-USDT-SWAP",
-    "LIT-USDT-SWAP",
-    "LINK-USDT-SWAP",
-    "INTC-USDT-SWAP",
-    "NVDA-USDT-SWAP",
-    "COAI-USDT-SWAP",
-    "DRAM-USDT-SWAP",
-    "CRCL-USDT-SWAP",
-    "QQQ-USDT-SWAP"
+    "INTC-USDT-SWAP"
   ]
 }
