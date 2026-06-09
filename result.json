@@ -1,9 +1,14 @@
 {
-  "localTime": "2026/6/9 04:41:51",
-  "executionTime": "4.79秒",
-  "count": 2,
+  "localTime": "2026/6/9 10:06:53",
+  "executionTime": "6.30秒",
+  "count": 7,
   "symbols": [
+    "ZEC-USDT-SWAP",
+    "DASH-USDT-SWAP",
     "MU-USDT-SWAP",
-    "INTC-USDT-SWAP"
+    "SNDK-USDT-SWAP",
+    "SOXL-USDT-SWAP",
+    "INTC-USDT-SWAP",
+    "LIT-USDT-SWAP"
   ]
 }
