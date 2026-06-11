@@ -1,13 +1,10 @@
 {
-  "localTime": "2026/6/10 16:12:13",
-  "executionTime": "6.80秒",
-  "count": 6,
+  "localTime": "2026/6/11 05:04:22",
+  "executionTime": "7.11秒",
+  "count": 3,
   "symbols": [
     "TRUMP-USDT-SWAP",
-    "AAVE-USDT-SWAP",
-    "ORDI-USDT-SWAP",
-    "SPCX-USDT-SWAP",
-    "BEAT-USDT-SWAP",
-    "TRB-USDT-SWAP"
+    "APE-USDT-SWAP",
+    "CRV-USDT-SWAP"
   ]
 }
