@@ -1,10 +1,11 @@
 {
-  "localTime": "2026/6/14 05:13:18",
-  "executionTime": "3.43秒",
-  "count": 3,
+  "localTime": "2026/6/14 10:00:49",
+  "executionTime": "4.66秒",
+  "count": 4,
   "symbols": [
     "XAU-USDT-SWAP",
-    "TAO-USDT-SWAP",
-    "GIGGLE-USDT-SWAP"
+    "XAG-USDT-SWAP",
+    "GIGGLE-USDT-SWAP",
+    "SPCX-USDT-SWAP"
   ]
 }
