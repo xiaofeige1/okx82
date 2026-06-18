@@ -1,19 +1,10 @@
 {
-  "localTime": "2026/6/17 16:09:26",
-  "executionTime": "6.79秒",
-  "count": 12,
+  "localTime": "2026/6/18 05:11:01",
+  "executionTime": "4.89秒",
+  "count": 3,
   "symbols": [
-    "XAU-USDT-SWAP",
-    "FIL-USDT-SWAP",
-    "ASTER-USDT-SWAP",
-    "SPX-USDT-SWAP",
-    "RIVER-USDT-SWAP",
-    "BIO-USDT-SWAP",
-    "LIT-USDT-SWAP",
-    "DOT-USDT-SWAP",
+    "INTC-USDT-SWAP",
     "SKHYNIX-USDT-SWAP",
-    "CBRS-USDT-SWAP",
-    "XPL-USDT-SWAP",
-    "APE-USDT-SWAP"
+    "DRAM-USDT-SWAP"
   ]
 }
