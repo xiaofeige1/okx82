@@ -1,16 +1,10 @@
 {
-  "localTime": "2026/6/18 15:57:35",
-  "executionTime": "6.73秒",
-  "count": 9,
+  "localTime": "2026/6/19 03:28:44",
+  "executionTime": "6.12秒",
+  "count": 3,
   "symbols": [
-    "MU-USDT-SWAP",
-    "SNDK-USDT-SWAP",
-    "SOXL-USDT-SWAP",
     "INTC-USDT-SWAP",
-    "MRVL-USDT-SWAP",
     "SKHYNIX-USDT-SWAP",
-    "CBRS-USDT-SWAP",
-    "DRAM-USDT-SWAP",
-    "QQQ-USDT-SWAP"
+    "LAB-USDT-SWAP"
   ]
 }
