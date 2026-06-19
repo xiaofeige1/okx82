@@ -1,0 +1,39 @@
+name: okx82
+
+on:
+  repository_dispatch:
+    types: [trigger_okx82]  # 外部定时器触发的事件名称
+  workflow_dispatch:        # 保留手动触发按钮
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install
+        run: npm install
+
+      - name: Run Screener
+        run: node okx82.js
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL || 'onboarding@resend.dev' }}
+
+      - name: Commit result
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add result.json
+          git diff --cached --quiet || git commit -m "update result"
+          git push
