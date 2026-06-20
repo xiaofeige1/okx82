@@ -1,18 +1,22 @@
 {
-  "localTime": "2026/6/20 08:00:29",
-  "executionTime": "4.23秒",
-  "count": 11,
+  "localTime": "2026/6/20 12:00:23",
+  "executionTime": "5.66秒",
+  "count": 15,
   "symbols": [
+    "BTC-USDT-SWAP",
+    "BTC-USD-SWAP",
     "ETH-USDT-SWAP",
     "ETH-USD-SWAP",
     "BNB-USDT-SWAP",
-    "SOL-USDT-SWAP",
     "AXS-USDT-SWAP",
+    "ICP-USDT-SWAP",
+    "SOL-USDT-SWAP",
     "BICO-USDT-SWAP",
+    "RE-USDT-SWAP",
     "SOL-USD-SWAP",
     "APE-USDT-SWAP",
-    "SKHYNIX-USDT-SWAP",
     "EIGEN-USDT-SWAP",
+    "ASTER-USDT-SWAP",
     "SNDK-USDT-SWAP"
   ]
 }
