@@ -1,9 +1,18 @@
 {
-  "localTime": "2026/6/20 04:00:23",
-  "executionTime": "4.24秒",
-  "count": 2,
+  "localTime": "2026/6/20 08:00:29",
+  "executionTime": "4.23秒",
+  "count": 11,
   "symbols": [
+    "ETH-USDT-SWAP",
+    "ETH-USD-SWAP",
+    "BNB-USDT-SWAP",
+    "SOL-USDT-SWAP",
     "AXS-USDT-SWAP",
-    "MET-USDT-SWAP"
+    "BICO-USDT-SWAP",
+    "SOL-USD-SWAP",
+    "APE-USDT-SWAP",
+    "SKHYNIX-USDT-SWAP",
+    "EIGEN-USDT-SWAP",
+    "SNDK-USDT-SWAP"
   ]
 }
