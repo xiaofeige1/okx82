@@ -1,8 +1,13 @@
 {
-  "localTime": "2026/6/22 04:00:28",
-  "executionTime": "5.83秒",
-  "count": 4,
+  "localTime": "2026/6/22 08:00:28",
+  "executionTime": "4.74秒",
+  "count": 9,
   "symbols": [
+    "XAU-USDT-SWAP",
+    "ETH-USDT-SWAP",
+    "ETH-USD-SWAP",
+    "BNB-USDT-SWAP",
+    "XAG-USDT-SWAP",
     "MU-USDT-SWAP",
     "INTC-USDT-SWAP",
     "SNDK-USDT-SWAP",
