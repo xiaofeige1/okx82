@@ -1,9 +1,10 @@
 {
-  "localTime": "2026/6/24 12:00:20",
-  "executionTime": "6.40秒",
-  "count": 2,
+  "localTime": "2026/6/25 00:00:22",
+  "executionTime": "6.41秒",
+  "count": 3,
   "symbols": [
-    "AAVE-USDT-SWAP",
-    "JTO-USDT-SWAP"
+    "SKHYNIX-USDT-SWAP",
+    "INTC-USDT-SWAP",
+    "LIT-USDT-SWAP"
   ]
 }
