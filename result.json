@@ -1,10 +1,11 @@
 {
-  "localTime": "2026/6/26 04:00:46",
-  "executionTime": "8.07秒",
-  "count": 5,
+  "localTime": "2026/6/26 08:00:42",
+  "executionTime": "7.66秒",
+  "count": 6,
   "symbols": [
+    "SOL-USDT-SWAP",
+    "SOL-USD-SWAP",
     "INJ-USDT-SWAP",
-    "IP-USDT-SWAP",
     "APE-USDT-SWAP",
     "JTO-USDT-SWAP",
     "BEAT-USDT-SWAP"
