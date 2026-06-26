@@ -1,13 +1,9 @@
 {
-  "localTime": "2026/6/25 12:00:45",
-  "executionTime": "9.62秒",
-  "count": 6,
+  "localTime": "2026/6/26 01:00:41",
+  "executionTime": "7.41秒",
+  "count": 2,
   "symbols": [
-    "ICP-USDT-SWAP",
-    "AAVE-USDT-SWAP",
-    "MU-USDT-SWAP",
-    "SPCX-USDT-SWAP",
-    "SNDK-USDT-SWAP",
-    "SKHYNIX-USDT-SWAP"
+    "IP-USDT-SWAP",
+    "APE-USDT-SWAP"
   ]
 }
