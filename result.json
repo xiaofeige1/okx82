@@ -1,14 +1,11 @@
 {
-  "localTime": "2026/6/26 12:00:42",
-  "executionTime": "9.16秒",
-  "count": 7,
+  "localTime": "2026/6/27 01:00:43",
+  "executionTime": "5.92秒",
+  "count": 4,
   "symbols": [
-    "XAU-USDT-SWAP",
-    "XPT-USDT-SWAP",
-    "XPD-USDT-SWAP",
-    "APE-USDT-SWAP",
     "INJ-USDT-SWAP",
-    "JTO-USDT-SWAP",
-    "BEAT-USDT-SWAP"
+    "AGLD-USDT-SWAP",
+    "EGLD-USDT-SWAP",
+    "SLX-USDT-SWAP"
   ]
 }
