@@ -1,16 +1,12 @@
 {
-  "localTime": "2026/6/27 08:00:40",
-  "executionTime": "6.82秒",
-  "count": 9,
+  "localTime": "2026/6/27 12:00:42",
+  "executionTime": "5.97秒",
+  "count": 5,
   "symbols": [
     "OKB-USDT-SWAP",
-    "INJ-USDT-SWAP",
-    "SUI-USDT-SWAP",
-    "CBRS-USDT-SWAP",
-    "BERA-USDT-SWAP",
     "WIF-USDT-SWAP",
+    "CBRS-USDT-SWAP",
     "LTC-USDT-SWAP",
-    "SLX-USDT-SWAP",
-    "ENS-USDT-SWAP"
+    "SLX-USDT-SWAP"
   ]
 }
