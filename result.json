@@ -1,8 +1,9 @@
 {
-  "localTime": "2026/6/28 04:00:44",
-  "executionTime": "4.92秒",
-  "count": 1,
+  "localTime": "2026/6/28 08:01:04",
+  "executionTime": "4.76秒",
+  "count": 2,
   "symbols": [
-    "XPD-USDT-SWAP"
+    "ORDI-USDT-SWAP",
+    "BEAT-USDT-SWAP"
   ]
 }
