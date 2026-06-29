@@ -1,16 +1,16 @@
 {
-  "localTime": "2026/6/29 08:01:13",
-  "executionTime": "5.65秒",
+  "localTime": "2026/6/29 12:01:15",
+  "executionTime": "4.40秒",
   "count": 9,
   "symbols": [
     "SOL-USDT-SWAP",
     "XPD-USDT-SWAP",
     "SOL-USD-SWAP",
     "ORDI-USDT-SWAP",
-    "SUI-USDT-SWAP",
     "SOXL-USDT-SWAP",
     "AVAX-USDT-SWAP",
-    "RAVE-USDT-SWAP",
+    "AR-USDT-SWAP",
+    "EGLD-USDT-SWAP",
     "WIF-USDT-SWAP"
   ]
 }
