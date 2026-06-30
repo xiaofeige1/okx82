@@ -196,13 +196,13 @@ async function sendSimpleEmail(symbols) {
     return
   }
 
-  const html = `<p>筛选时间: ${timeStr}</p><p>${symbols.join('<br>')}</p>`
+  const html = `<p>${symbols.join('<br>')}</p>`
 
   try {
     await axios.post(
       "https://api.resend.com/emails",
       {
-        from: `OKX82 Screener <${senderEmail}>`,
+        from: `OKX85 <${senderEmail}>`,
         to: [recipientEmail],
         subject: `筛选结果`,
         html: html
