@@ -1,14 +1,19 @@
 {
-  "localTime": "2026/6/30 08:00:35",
-  "executionTime": "6.37秒",
-  "count": 7,
+  "localTime": "2026/6/30 12:00:39",
+  "executionTime": "4.98秒",
+  "count": 12,
   "symbols": [
     "XAG-USDT-SWAP",
     "XPD-USDT-SWAP",
+    "BZ-USDT-SWAP",
+    "MU-USDT-SWAP",
+    "SNDK-USDT-SWAP",
+    "CL-USDT-SWAP",
     "SOXL-USDT-SWAP",
     "INTC-USDT-SWAP",
     "MRVL-USDT-SWAP",
-    "APE-USDT-SWAP",
+    "DRAM-USDT-SWAP",
+    "SAMSUNG-USDT-SWAP",
     "LIT-USDT-SWAP"
   ]
 }
