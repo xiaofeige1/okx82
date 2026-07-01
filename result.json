@@ -1,24 +1,15 @@
 {
-  "localTime": "2026/7/1 04:00:33",
-  "executionTime": "5.32秒",
-  "count": 17,
+  "localTime": "2026/7/1 08:00:33",
+  "executionTime": "6.57秒",
+  "count": 8,
   "symbols": [
-    "ETH-USDT-SWAP",
-    "ETH-USD-SWAP",
     "SOL-USDT-SWAP",
-    "FIL-USDT-SWAP",
     "BCH-USDT-SWAP",
-    "DASH-USDT-SWAP",
     "TRUMP-USDT-SWAP",
     "SOL-USD-SWAP",
-    "SUI-USDT-SWAP",
-    "INJ-USDT-SWAP",
-    "RIVER-USDT-SWAP",
-    "APE-USDT-SWAP",
-    "LTC-USDT-SWAP",
-    "AVAX-USDT-SWAP",
-    "UNI-USDT-SWAP",
+    "DYDX-USDT-SWAP",
     "JTO-USDT-SWAP",
+    "AVAX-USDT-SWAP",
     "BCH-USD-SWAP"
   ]
 }
