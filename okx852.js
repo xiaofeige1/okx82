@@ -214,7 +214,7 @@ async function sendSimpleEmail(symbols) {
     await axios.post(
       "https://api.resend.com/emails",
       {
-        from: `OKX85 <onboarding@resend.dev>`,
+        from: `OKX852 <onboarding@resend.dev>`,
         to: [recipientEmail],
         subject: `筛选结果`,
         html: html
