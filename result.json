@@ -1,15 +1,20 @@
 {
-  "localTime": "2026/7/1 08:00:33",
-  "executionTime": "6.57秒",
-  "count": 8,
+  "localTime": "2026/7/1 12:00:46",
+  "executionTime": "4.63秒",
+  "count": 13,
   "symbols": [
+    "YFI-USDT-SWAP",
     "SOL-USDT-SWAP",
     "BCH-USDT-SWAP",
     "TRUMP-USDT-SWAP",
     "SOL-USD-SWAP",
     "DYDX-USDT-SWAP",
+    "SUI-USDT-SWAP",
+    "INJ-USDT-SWAP",
+    "AXS-USDT-SWAP",
     "JTO-USDT-SWAP",
-    "AVAX-USDT-SWAP",
-    "BCH-USD-SWAP"
+    "COAI-USDT-SWAP",
+    "BASED-USDT-SWAP",
+    "AVAX-USDT-SWAP"
   ]
 }
