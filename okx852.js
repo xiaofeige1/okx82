@@ -21,7 +21,7 @@ console.log("└─────────────────────�
 const BAR = "1H"
 const MIN_KLINE = 72
 const TOP_N = 100
-const MIN_VOL_USDT = 20_000_000
+const MIN_VOL_USDT = 30_000_000
 const CONCURRENCY = 2
 const FETCH_TIMEOUT = 10000
 const MAX_RETRY = 3
