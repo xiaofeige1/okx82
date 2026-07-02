@@ -1,29 +1,14 @@
 {
-  "localTime": "2026/7/2 04:00:34",
-  "executionTime": "4.38秒",
-  "count": 22,
+  "localTime": "2026/7/2 08:00:34",
+  "executionTime": "5.89秒",
+  "count": 7,
   "symbols": [
-    "BTC-USDT-SWAP",
-    "BTC-USD-SWAP",
-    "ETH-USDT-SWAP",
     "ZEC-USDT-SWAP",
-    "ETH-USD-SWAP",
-    "XAG-USDT-SWAP",
-    "BNB-USDT-SWAP",
-    "YFI-USDT-SWAP",
-    "TAO-USDT-SWAP",
     "XPT-USDT-SWAP",
-    "SOL-USDT-SWAP",
-    "XPD-USDT-SWAP",
-    "BCH-USDT-SWAP",
     "FIL-USDT-SWAP",
     "DASH-USDT-SWAP",
-    "AAVE-USDT-SWAP",
-    "SOL-USD-SWAP",
-    "MSTR-USDT-SWAP",
+    "LIT-USDT-SWAP",
     "SUI-USDT-SWAP",
-    "RIVER-USDT-SWAP",
-    "LINK-USDT-SWAP",
-    "LTC-USDT-SWAP"
+    "LINK-USDT-SWAP"
   ]
 }
