@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: Run Screener
-        run: node okx852.js
+        run: node okx853.js
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
