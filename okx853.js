@@ -1,6 +1,8 @@
 /**
  * GitHub Actions 版本 - OKX永续合约筛选器（极简版）
- * ✅ 修复：今日开盘价使用 UTC 00:00 第一根 1H K 线
+ *
+ * ✅ 今日开盘价：OKX sodUtc0（UTC 00:00）
+ * ✅ 1H 最高价 > (昨天最高 + 今日开盘) / 2
  */
 
 import axios from "axios"
@@ -12,7 +14,7 @@ const timeStr = now.toLocaleTimeString('zh-CN')
 
 console.log("┌────────────────────────────────────────")
 console.log("│* 1H最高价 > (昨天最高 + 今天开盘)/2        ")
-console.log("│* UTC 00:00 换日（开盘价已修复）")
+console.log("│* 今日开盘价 = sodUtc0")
 console.log("└────────────────────────────────────────")
 
 // =====================================================
@@ -54,16 +56,12 @@ async function fetchJson(url, retry = MAX_RETRY) {
 }
 
 // =====================================================
-// ✅ 修复版：获取今日 / 昨日数据
+// ✅ 只获取昨日最高价（不再算今日开盘）
 // =====================================================
-function getDayHighLow(klineData) {
-
+function getYesterdayHigh(klineData) {
   const dayMap = new Map()
 
-  // ✅ 从老到新遍历（关键）
-  for (let i = klineData.length - 1; i >= 0; i--) {
-
-    const d = klineData[i]
+  for (const d of klineData) {
     const ts = +d[0]
     const date = new Date(ts)
 
@@ -74,44 +72,24 @@ function getDayHighLow(klineData) {
         String(date.getUTCDate()).padStart(2, "0")
       }`
 
-    const open = +d[1]
     const high = +d[2]
-    const low = +d[3]
 
     if (!dayMap.has(dayKey)) {
-
-      // ✅ 第一次出现的 K 线 = UTC 00:00 开盘
-      dayMap.set(dayKey, {
-        firstTs: ts,
-        open,
-        high,
-        low
-      })
-
+      dayMap.set(dayKey, { high })
     } else {
-
       const cur = dayMap.get(dayKey)
-
-      dayMap.set(dayKey, {
-        firstTs: Math.min(cur.firstTs, ts),
-        open: cur.firstTs < ts ? cur.open : open,
-        high: Math.max(cur.high, high),
-        low: Math.min(cur.low, low)
-      })
+      dayMap.set(dayKey, { high: Math.max(cur.high, high) })
     }
   }
 
   const days = [...dayMap.keys()].sort()
   if (days.length < 2) return null
 
-  const today = dayMap.get(days[days.length - 1])
-  const yesterday = dayMap.get(days[days.length - 2])
-
-  return { today, yesterday }
+  return dayMap.get(days[days.length - 2]).high
 }
 
 // =====================================================
-// 单个币种处理
+// 单个币种处理（✅ 开盘价 = sodUtc0）
 // =====================================================
 async function processSymbol(t) {
   try {
@@ -125,13 +103,14 @@ async function processSymbol(t) {
     const current1HKline = kline.data[0]
     const currentHigh = +current1HKline[2]
 
-    const dayData = getDayHighLow(kline.data)
-    if (!dayData) return null
+    const yesterdayHigh = getYesterdayHigh(kline.data)
+    if (!yesterdayHigh) return null
 
-    const { yesterday, today } = dayData
+    // ✅ 今日开盘价 = OKX 官方字段
+    const todayOpen = t.sodUtc0
+    if (!todayOpen || todayOpen <= 0) return null
 
-    // ✅ 核心筛选条件
-    const targetLine = (yesterday.high + today.open) / 2
+    const targetLine = (yesterdayHigh + todayOpen) / 2
     if (currentHigh <= targetLine) return null
 
     return t.symbol.replace(' ', '')
@@ -214,7 +193,7 @@ async function sendSimpleEmail(symbols) {
     await axios.post(
       "https://api.resend.com/emails",
       {
-        from: `OK852 <onboarding@resend.dev>`,
+        from: `OK853 <onboarding@resend.dev>`,
         to: [recipientEmail],
         subject: `Filter results`,
         html: html
@@ -244,12 +223,16 @@ async function main() {
   )
 
   const top = tickersRes.data
-    .map(t => ({ symbol: t.instId, volUsdt: (+t.last) * (+t.vol24h) }))
+    .map(t => ({
+      symbol: t.instId,
+      volUsdt: (+t.last) * (+t.vol24h),
+      sodUtc0: parseFloat(t.sodUtc0)
+    }))
     .filter(t => t.volUsdt > MIN_VOL_USDT)
     .sort((a, b) => b.volUsdt - a.volUsdt)
     .slice(0, TOP_N)
 
-  console.log(`2/3: 成交额大于20M币种数量: ${top.length}`)
+  console.log(`2/3: 成交额大于30M币种数量: ${top.length}`)
   console.log(`3/3: 开始并发筛选（并发=${CONCURRENCY}）...\n`)
 
   const startTime = Date.now()
