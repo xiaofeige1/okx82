@@ -1,12 +1,21 @@
 {
-  "localTime": "2026/7/3 01:00:43",
-  "executionTime": "5.82秒",
-  "count": 5,
+  "localTime": "2026/7/3 04:00:42",
+  "executionTime": "5.53秒",
+  "count": 14,
   "symbols": [
     "XAU-USDT-SWAP",
+    "XAG-USDT-SWAP",
     "XPT-USDT-SWAP",
     "XPD-USDT-SWAP",
+    "DASH-USDT-SWAP",
+    "BZ-USDT-SWAP",
+    "CL-USDT-SWAP",
+    "TRUMP-USDT-SWAP",
     "WLD-USDT-SWAP",
-    "INJ-USDT-SWAP"
+    "GIGGLE-USDT-SWAP",
+    "INJ-USDT-SWAP",
+    "SUI-USDT-SWAP",
+    "SAMSUNG-USDT-SWAP",
+    "RIVER-USDT-SWAP"
   ]
 }
