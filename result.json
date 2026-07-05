@@ -1,10 +1,13 @@
 {
-  "localTime": "2026/7/5 04:00:41",
-  "executionTime": "4.13秒",
-  "count": 3,
+  "localTime": "2026/7/5 08:00:44",
+  "executionTime": "3.03秒",
+  "count": 6,
   "symbols": [
+    "BCH-USDT-SWAP",
+    "BZ-USDT-SWAP",
     "LAB-USDT-SWAP",
-    "XPT-USDT-SWAP",
-    "MU-USDT-SWAP"
+    "CL-USDT-SWAP",
+    "MU-USDT-SWAP",
+    "LIT-USDT-SWAP"
   ]
 }
