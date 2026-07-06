@@ -1,18 +1,11 @@
 {
-  "localTime": "2026/7/6 01:00:42",
-  "executionTime": "4.68秒",
-  "count": 13,
+  "localTime": "2026/7/6 04:00:41",
+  "executionTime": "4.83秒",
+  "count": 6,
   "symbols": [
-    "ZEC-USDT-SWAP",
-    "BNB-USDT-SWAP",
     "YFI-USDT-SWAP",
     "HYPE-USDT-SWAP",
-    "GIGGLE-USDT-SWAP",
-    "TAO-USDT-SWAP",
-    "SOL-USDT-SWAP",
-    "XPT-USDT-SWAP",
-    "SNDK-USDT-SWAP",
-    "SOL-USD-SWAP",
+    "WLD-USDT-SWAP",
     "LIT-USDT-SWAP",
     "INJ-USDT-SWAP",
     "SPCX-USDT-SWAP"
