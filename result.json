@@ -1,9 +1,10 @@
 {
-  "localTime": "2026/7/9 01:00:32",
-  "executionTime": "6.63秒",
-  "count": 2,
+  "localTime": "2026/7/9 04:00:35",
+  "executionTime": "6.38秒",
+  "count": 3,
   "symbols": [
     "INJ-USDT-SWAP",
-    "INTC-USDT-SWAP"
+    "AXS-USDT-SWAP",
+    "EGLD-USDT-SWAP"
   ]
 }
