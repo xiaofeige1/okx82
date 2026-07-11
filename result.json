@@ -1,12 +1,15 @@
 {
-  "localTime": "2026/7/11 08:00:18",
-  "executionTime": "5.18秒",
-  "count": 5,
+  "localTime": "2026/7/11 12:00:21",
+  "executionTime": "4.94秒",
+  "count": 8,
   "symbols": [
     "BNB-USDT-SWAP",
+    "SNDK-USDT-SWAP",
+    "AAVE-USDT-SWAP",
     "SOXL-USDT-SWAP",
     "WLD-USDT-SWAP",
     "INJ-USDT-SWAP",
-    "INTC-USDT-SWAP"
+    "VIRTUAL-USDT-SWAP",
+    "UNI-USDT-SWAP"
   ]
 }
