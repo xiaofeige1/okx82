@@ -1,11 +1,16 @@
 {
-  "localTime": "2026/7/12 08:01:11",
-  "executionTime": "4.23秒",
-  "count": 4,
+  "localTime": "2026/7/12 12:01:13",
+  "executionTime": "4.52秒",
+  "count": 9,
   "symbols": [
+    "ZEC-USDT-SWAP",
+    "BNB-USDT-SWAP",
     "BZ-USDT-SWAP",
     "CL-USDT-SWAP",
+    "OKB-USDT-SWAP",
     "GIGGLE-USDT-SWAP",
-    "VVV-USDT-SWAP"
+    "WLD-USDT-SWAP",
+    "ORDI-USDT-SWAP",
+    "EGLD-USDT-SWAP"
   ]
 }
