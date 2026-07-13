@@ -1,16 +1,10 @@
 {
-  "localTime": "2026/7/13 01:01:12",
-  "executionTime": "4.77秒",
-  "count": 9,
+  "localTime": "2026/7/13 04:01:10",
+  "executionTime": "3.76秒",
+  "count": 3,
   "symbols": [
-    "BTC-USD-SWAP",
-    "BTC-USDT-SWAP",
-    "ETH-USDT-SWAP",
-    "ETH-USD-SWAP",
     "BZ-USDT-SWAP",
-    "SOL-USDT-SWAP",
     "CL-USDT-SWAP",
-    "SOL-USD-SWAP",
     "EGLD-USDT-SWAP"
   ]
 }
