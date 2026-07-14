@@ -1,12 +1,11 @@
 {
-  "localTime": "2026/7/14 01:00:26",
-  "executionTime": "5.90秒",
-  "count": 5,
+  "localTime": "2026/7/14 04:00:27",
+  "executionTime": "4.95秒",
+  "count": 4,
   "symbols": [
+    "YFI-USDT-SWAP",
     "BZ-USDT-SWAP",
     "CL-USDT-SWAP",
-    "ORDI-USDT-SWAP",
-    "EGLD-USDT-SWAP",
-    "UNI-USDT-SWAP"
+    "EGLD-USDT-SWAP"
   ]
 }
