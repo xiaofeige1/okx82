@@ -1,10 +1,11 @@
 {
-  "localTime": "2026/7/18 08:00:51",
-  "executionTime": "5.20秒",
-  "count": 3,
+  "localTime": "2026/7/18 12:01:07",
+  "executionTime": "3.72秒",
+  "count": 4,
   "symbols": [
+    "BZ-USDT-SWAP",
+    "CL-USDT-SWAP",
     "TRUMP-USDT-SWAP",
-    "ICP-USDT-SWAP",
     "VVV-USDT-SWAP"
   ]
 }
