@@ -1,12 +1,13 @@
 {
-  "localTime": "2026/7/23 08:00:26",
-  "executionTime": "3.68秒",
-  "count": 5,
+  "localTime": "2026/7/23 12:00:27",
+  "executionTime": "4.88秒",
+  "count": 6,
   "symbols": [
     "BZ-USDT-SWAP",
     "CL-USDT-SWAP",
+    "OKB-USDT-SWAP",
     "TRUMP-USDT-SWAP",
     "SKHY-USDT-SWAP",
-    "KORU-USDT-SWAP"
+    "KAITO-USDT-SWAP"
   ]
 }
