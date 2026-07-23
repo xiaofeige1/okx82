@@ -1,14 +1,10 @@
 {
-  "localTime": "2026/7/22 12:00:27",
-  "executionTime": "5.01秒",
-  "count": 7,
+  "localTime": "2026/7/23 01:00:25",
+  "executionTime": "5.41秒",
+  "count": 3,
   "symbols": [
-    "XAU-USDT-SWAP",
-    "XAG-USDT-SWAP",
-    "CL-USDT-SWAP",
-    "BZ-USDT-SWAP",
-    "XPD-USDT-SWAP",
     "XPT-USDT-SWAP",
-    "TRUMP-USDT-SWAP"
+    "SOXL-USDT-SWAP",
+    "KORU-USDT-SWAP"
   ]
 }
