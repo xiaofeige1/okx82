@@ -1,9 +1,8 @@
 {
-  "localTime": "2026/7/24 04:00:25",
-  "executionTime": "5.25秒",
-  "count": 2,
+  "localTime": "2026/7/24 08:00:30",
+  "executionTime": "4.18秒",
+  "count": 1,
   "symbols": [
-    "INJ-USDT-SWAP",
-    "BERA-USDT-SWAP"
+    "INJ-USDT-SWAP"
   ]
 }
