@@ -1,16 +1,19 @@
 {
-  "localTime": "2026/7/31 04:00:17",
-  "executionTime": "4.11秒",
-  "count": 9,
+  "localTime": "2026/7/31 08:00:20",
+  "executionTime": "5.50秒",
+  "count": 12,
   "symbols": [
-    "YFI-USDT-SWAP",
+    "GIGGLE-USDT-SWAP",
     "SKHYNIX-USDT-SWAP",
     "TAO-USDT-SWAP",
-    "GIGGLE-USDT-SWAP",
-    "ICP-USDT-SWAP",
     "SKHY-USDT-SWAP",
+    "SOXL-USDT-SWAP",
+    "KORU-USDT-SWAP",
     "SAMSUNG-USDT-SWAP",
-    "WLD-USDT-SWAP",
-    "TSLA-USDT-SWAP"
+    "DRAM-USDT-SWAP",
+    "INTC-USDT-SWAP",
+    "MRVL-USDT-SWAP",
+    "TSLA-USDT-SWAP",
+    "EWY-USDT-SWAP"
   ]
 }
