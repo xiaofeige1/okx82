@@ -1,10 +1,11 @@
 {
-  "localTime": "2026/8/1 12:01:10",
-  "executionTime": "5.17秒",
-  "count": 3,
+  "localTime": "2026/8/2 01:00:55",
+  "executionTime": "3.09秒",
+  "count": 4,
   "symbols": [
-    "DASH-USDT-SWAP",
-    "ORDI-USDT-SWAP",
-    "WLD-USDT-SWAP"
+    "XAU-USDT-SWAP",
+    "XAG-USDT-SWAP",
+    "OKB-USDT-SWAP",
+    "MU-USDT-SWAP"
   ]
 }
