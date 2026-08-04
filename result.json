@@ -1,9 +1,10 @@
 {
-  "localTime": "2026/8/3 12:01:01",
-  "executionTime": "3.25秒",
-  "count": 2,
+  "localTime": "2026/8/4 01:01:01",
+  "executionTime": "4.16秒",
+  "count": 3,
   "symbols": [
-    "GIGGLE-USDT-SWAP",
-    "BICO-USDT-SWAP"
+    "BZ-USDT-SWAP",
+    "CL-USDT-SWAP",
+    "RIVER-USDT-SWAP"
   ]
 }
