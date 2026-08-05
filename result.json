@@ -1,33 +1,9 @@
 {
-  "localTime": "2026/8/4 12:01:01",
-  "executionTime": "6.06秒",
-  "count": 26,
+  "localTime": "2026/8/5 01:00:31",
+  "executionTime": "3.16秒",
+  "count": 2,
   "symbols": [
-    "BTC-USDT-SWAP",
-    "XAU-USDT-SWAP",
-    "BTC-USD-SWAP",
-    "ETH-USD-SWAP",
     "XAG-USDT-SWAP",
-    "SNDK-USDT-SWAP",
-    "XPT-USDT-SWAP",
-    "HYPE-USDT-SWAP",
-    "XPD-USDT-SWAP",
-    "SKHYNIX-USDT-SWAP",
-    "MU-USDT-SWAP",
-    "OKB-USDT-SWAP",
-    "SOL-USDT-SWAP",
-    "SPCX-USDT-SWAP",
-    "SOXL-USDT-SWAP",
-    "SKHY-USDT-SWAP",
-    "KORU-USDT-SWAP",
-    "SNXX-USDT-SWAP",
-    "SOL-USD-SWAP",
-    "WLD-USDT-SWAP",
-    "RIVER-USDT-SWAP",
-    "DRAM-USDT-SWAP",
-    "MRVL-USDT-SWAP",
-    "AVAX-USDT-SWAP",
-    "INTC-USDT-SWAP",
-    "SAMSUNG-USDT-SWAP"
+    "BNB-USDT-SWAP"
   ]
 }
