@@ -1,9 +1,21 @@
 {
-  "localTime": "2026/8/5 01:00:31",
-  "executionTime": "3.16秒",
-  "count": 2,
+  "localTime": "2026/8/5 04:00:38",
+  "executionTime": "3.60秒",
+  "count": 14,
   "symbols": [
+    "XAU-USDT-SWAP",
+    "ZEC-USDT-SWAP",
     "XAG-USDT-SWAP",
-    "BNB-USDT-SWAP"
+    "BNB-USDT-SWAP",
+    "XPT-USDT-SWAP",
+    "HYPE-USDT-SWAP",
+    "XPD-USDT-SWAP",
+    "SKHYNIX-USDT-SWAP",
+    "KORU-USDT-SWAP",
+    "BICO-USDT-SWAP",
+    "AAOI-USDT-SWAP",
+    "MRVL-USDT-SWAP",
+    "UNI-USDT-SWAP",
+    "AXS-USDT-SWAP"
   ]
 }
