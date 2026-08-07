@@ -1,14 +1,11 @@
 {
-  "localTime": "2026/8/7 01:01:11",
-  "executionTime": "2.95秒",
-  "count": 7,
+  "localTime": "2026/8/7 04:00:52",
+  "executionTime": "4.23秒",
+  "count": 4,
   "symbols": [
     "OKB-USDT-SWAP",
-    "RIVER-USDT-SWAP",
     "AAVE-USDT-SWAP",
     "TRUMP-USDT-SWAP",
-    "ZBT-USDT-SWAP",
-    "AXS-USDT-SWAP",
-    "UNI-USDT-SWAP"
+    "AAOI-USDT-SWAP"
   ]
 }
