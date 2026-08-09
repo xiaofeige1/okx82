@@ -1,13 +1,16 @@
 {
-  "localTime": "2026/8/9 04:01:08",
+  "localTime": "2026/8/9 08:01:13",
   "executionTime": "2.08秒",
-  "count": 6,
+  "count": 9,
   "symbols": [
+    "XAU-USDT-SWAP",
     "ZEC-USDT-SWAP",
     "TAO-USDT-SWAP",
     "BZ-USDT-SWAP",
     "BICO-USDT-SWAP",
     "CL-USDT-SWAP",
-    "SNDK-USDT-SWAP"
+    "AAVE-USDT-SWAP",
+    "SNDK-USDT-SWAP",
+    "BEAT-USDT-SWAP"
   ]
 }
