@@ -1,8 +1,11 @@
 {
-  "localTime": "2026/8/10 01:01:03",
-  "executionTime": "3.67秒",
-  "count": 1,
+  "localTime": "2026/8/10 04:01:04",
+  "executionTime": "2.53秒",
+  "count": 4,
   "symbols": [
-    "WLD-USDT-SWAP"
+    "YFI-USDT-SWAP",
+    "AAVE-USDT-SWAP",
+    "WLD-USDT-SWAP",
+    "SOXL-USDT-SWAP"
   ]
 }
