@@ -1,17 +1,13 @@
 {
-  "localTime": "2026/8/11 12:01:02",
-  "executionTime": "3.24秒",
-  "count": 10,
+  "localTime": "2026/8/12 01:00:53",
+  "executionTime": "3.51秒",
+  "count": 6,
   "symbols": [
     "BNB-USDT-SWAP",
-    "GIGGLE-USDT-SWAP",
-    "OKB-USDT-SWAP",
-    "XPT-USDT-SWAP",
-    "TRUMP-USDT-SWAP",
-    "KORU-USDT-SWAP",
+    "TAO-USDT-SWAP",
     "INJ-USDT-SWAP",
-    "LINK-USDT-SWAP",
-    "CRV-USDT-SWAP",
-    "SUI-USDT-SWAP"
+    "KORU-USDT-SWAP",
+    "LITE-USDT-SWAP",
+    "CRV-USDT-SWAP"
   ]
 }
