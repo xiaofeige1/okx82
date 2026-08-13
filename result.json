@@ -1,11 +1,15 @@
 {
-  "localTime": "2026/8/13 01:00:56",
-  "executionTime": "4.99秒",
-  "count": 4,
+  "localTime": "2026/8/13 04:00:56",
+  "executionTime": "3.63秒",
+  "count": 8,
   "symbols": [
     "OKB-USDT-SWAP",
     "SKHYNIX-USDT-SWAP",
+    "BCH-USDT-SWAP",
     "SKHY-USDT-SWAP",
-    "KORU-USDT-SWAP"
+    "KORU-USDT-SWAP",
+    "INJ-USDT-SWAP",
+    "AVAX-USDT-SWAP",
+    "SAMSUNG-USDT-SWAP"
   ]
 }
