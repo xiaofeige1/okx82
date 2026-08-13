@@ -1,15 +1,11 @@
 {
-  "localTime": "2026/8/13 08:00:57",
-  "executionTime": "4.66秒",
-  "count": 8,
+  "localTime": "2026/8/13 12:00:55",
+  "executionTime": "2.73秒",
+  "count": 4,
   "symbols": [
-    "ZEC-USDT-SWAP",
     "OKB-USDT-SWAP",
     "HYPE-USDT-SWAP",
-    "AAVE-USDT-SWAP",
-    "BCH-USDT-SWAP",
-    "SOL-USD-SWAP",
-    "ORDI-USDT-SWAP",
+    "WLD-USDT-SWAP",
     "AVAX-USDT-SWAP"
   ]
 }
