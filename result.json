@@ -1,13 +1,14 @@
 {
-  "localTime": "2026/8/15 08:00:51",
-  "executionTime": "3.97秒",
-  "count": 6,
+  "localTime": "2026/8/15 12:00:58",
+  "executionTime": "3.98秒",
+  "count": 7,
   "symbols": [
     "BNB-USDT-SWAP",
+    "YFI-USDT-SWAP",
     "ICP-USDT-SWAP",
     "FIL-USDT-SWAP",
     "LINK-USDT-SWAP",
-    "WLD-USDT-SWAP",
-    "AVAX-USDT-SWAP"
+    "AVAX-USDT-SWAP",
+    "RIVER-USDT-SWAP"
   ]
 }
