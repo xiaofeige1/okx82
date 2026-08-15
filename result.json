@@ -1,11 +1,12 @@
 {
-  "localTime": "2026/8/15 01:00:51",
-  "executionTime": "2.72秒",
-  "count": 4,
+  "localTime": "2026/8/15 04:00:48",
+  "executionTime": "4.19秒",
+  "count": 5,
   "symbols": [
-    "OKB-USDT-SWAP",
+    "BNB-USDT-SWAP",
     "ICP-USDT-SWAP",
     "FIL-USDT-SWAP",
-    "LINK-USDT-SWAP"
+    "LINK-USDT-SWAP",
+    "AVAX-USDT-SWAP"
   ]
 }
