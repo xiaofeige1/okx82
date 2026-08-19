@@ -1,8 +1,9 @@
 /**
- * GitHub Actions 版本 - OKX永续合约筛选器（极简版）
+ * GitHub Actions 版本 - OKX永续合约形态筛选器（精简版）
  *
- * ✅ 今日开盘价：OKX sodUtc0（UTC 00:00）
- * ✅ 1H 最高价 > (昨天最高 + 今日开盘) / 2
+ * ✅ 1. 最近连续 24 根 1H K线收盘价 > 1H EMA80
+ * ✅ 2. 结构性最高点 (Max High) 后寻找最低点，收盘突破 (MaxHigh + MinLow)/2 时锁定支撑
+ * ✅ 3. 突破至今最低价未跌破锁定的支撑低点
  */
 
 import axios from "axios"
@@ -13,17 +14,19 @@ const dateStr = now.toLocaleDateString('zh-CN')
 const timeStr = now.toLocaleTimeString('zh-CN')
 
 console.log("┌────────────────────────────────────────")
-console.log("│* 1H最高价 > (昨天最高 + 今天开盘)/2        ")
-console.log("│* 今日开盘价 = sodUtc0")
+console.log("│* 连续24根 > EMA80                     ")
+console.log("│* 突破(MaxHigh+MinLow)/2锁定支撑低点不破 ")
 console.log("└────────────────────────────────────────")
 
 // =====================================================
 // 参数配置
 // =====================================================
 const BAR = "1H"
-const MIN_KLINE = 72
+const KLINE_LIMIT = 200
+const EMA_PERIOD = 80
+const CHECK_EMA_BARS = 24
 const TOP_N = 100
-const MIN_VOL_USDT = 30_000_000
+const MIN_VOL_USDT = 8_000_000
 const CONCURRENCY = 2
 const FETCH_TIMEOUT = 10000
 const MAX_RETRY = 3
@@ -56,62 +59,79 @@ async function fetchJson(url, retry = MAX_RETRY) {
 }
 
 // =====================================================
-// ✅ 只获取昨日最高价（不再算今日开盘）
+// EMA 计算函数
 // =====================================================
-function getYesterdayHigh(klineData) {
-  const dayMap = new Map()
-
-  for (const d of klineData) {
-    const ts = +d[0]
-    const date = new Date(ts)
-
-    const dayKey =
-      `${date.getUTCFullYear()}-${
-        String(date.getUTCMonth() + 1).padStart(2, "0")
-      }-${
-        String(date.getUTCDate()).padStart(2, "0")
-      }`
-
-    const high = +d[2]
-
-    if (!dayMap.has(dayKey)) {
-      dayMap.set(dayKey, { high })
-    } else {
-      const cur = dayMap.get(dayKey)
-      dayMap.set(dayKey, { high: Math.max(cur.high, high) })
-    }
+function calculateEMA(closes, period) {
+  const ema = new Array(closes.length)
+  const multiplier = 2 / (period + 1)
+  let sum = 0
+  for (let i = 0; i < period; i++) sum += closes[i]
+  ema[period - 1] = sum / period
+  for (let i = period; i < closes.length; i++) {
+    ema[i] = (closes[i] - ema[i - 1]) * multiplier + ema[i - 1]
   }
-
-  const days = [...dayMap.keys()].sort()
-  if (days.length < 2) return null
-
-  return dayMap.get(days[days.length - 2]).high
+  return ema
 }
 
 // =====================================================
-// 单个币种处理（✅ 开盘价 = sodUtc0）
+// 单个币种处理
 // =====================================================
 async function processSymbol(t) {
   try {
-    const url =
-      `https://www.okx.com/api/v5/market/candles?instId=${t.symbol}` +
-      `&bar=${BAR}&limit=${MIN_KLINE}`
-
+    const url = `https://www.okx.com/api/v5/market/candles?instId=${t.symbol}&bar=${BAR}&limit=${KLINE_LIMIT}`
     const kline = await fetchJson(url)
-    if (!kline.data || kline.data.length < 72) return null
 
-    const current1HKline = kline.data[0]
-    const currentHigh = +current1HKline[2]
+    if (!kline.data || kline.data.length < KLINE_LIMIT) return null
 
-    const yesterdayHigh = getYesterdayHigh(kline.data)
-    if (!yesterdayHigh) return null
+    const rawData = kline.data.slice().reverse()
+    const highs = rawData.map(bar => +bar[2])
+    const lows = rawData.map(bar => +bar[3])
+    const closes = rawData.map(bar => +bar[4])
+    const totalLen = closes.length
 
-    // ✅ 今日开盘价 = OKX 官方字段
-    const todayOpen = t.sodUtc0
-    if (!todayOpen || todayOpen <= 0) return null
+    // 1. 连续 24 根 > EMA80
+    const ema80Array = calculateEMA(closes, EMA_PERIOD)
+    for (let i = 0; i < CHECK_EMA_BARS; i++) {
+      const idx = totalLen - 1 - i
+      if (closes[idx] <= ema80Array[idx]) return null
+    }
 
-    const targetLine = (yesterdayHigh + todayOpen) / 2
-    if (currentHigh <= targetLine) return null
+    // 2. 寻找结构性最高点 (避开最后 10 根)
+    let maxHigh = -1
+    let maxHighIdx = -1
+    for (let i = totalLen - 100; i < totalLen - 10; i++) {
+      if (highs[i] > maxHigh) {
+        maxHigh = highs[i]
+        maxHighIdx = i
+      }
+    }
+    if (maxHighIdx === -1) return null
+
+    // 3. 突破 50% 分水岭锁定支撑
+    let confirmedPullbackLow = null
+    let breakThroughIdx = -1
+    let currentMin = Infinity
+
+    for (let i = maxHighIdx + 1; i < totalLen; i++) {
+      const currentLow = lows[i]
+      const currentClose = closes[i]
+
+      if (currentLow < currentMin) currentMin = currentLow
+
+      const midPoint = (maxHigh + currentMin) / 2
+      if (currentClose > midPoint) {
+        confirmedPullbackLow = currentMin
+        breakThroughIdx = i
+        break
+      }
+    }
+
+    if (confirmedPullbackLow === null || breakThroughIdx === -1) return null
+
+    // 4. 突破后未跌破锁定的支撑
+    for (let i = breakThroughIdx; i < totalLen; i++) {
+      if (lows[i] < confirmedPullbackLow) return null
+    }
 
     return t.symbol.replace(' ', '')
   } catch (err) {
@@ -223,16 +243,16 @@ async function main() {
   )
 
   const top = tickersRes.data
+    .filter(t => t.instId.endsWith("USDT-SWAP"))
     .map(t => ({
       symbol: t.instId,
-      volUsdt: (+t.last) * (+t.vol24h),
-      sodUtc0: parseFloat(t.sodUtc0)
+      volUsdt: (+t.last) * (+t.vol24h)
     }))
     .filter(t => t.volUsdt > MIN_VOL_USDT)
     .sort((a, b) => b.volUsdt - a.volUsdt)
     .slice(0, TOP_N)
 
-  console.log(`2/3: 成交额大于30M币种数量: ${top.length}`)
+  console.log(`2/3: 候选币种数量: ${top.length}`)
   console.log(`3/3: 开始并发筛选（并发=${CONCURRENCY}）...\n`)
 
   const startTime = Date.now()
