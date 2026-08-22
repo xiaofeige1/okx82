@@ -1,13 +1,15 @@
 {
-  "localTime": "2026/8/22 08:00:55",
-  "executionTime": "6.27秒",
-  "count": 7,
+  "localTime": "2026/8/22 12:00:54",
+  "executionTime": "8.62秒",
+  "count": 9,
   "symbols": [
     "BTC-USDT-SWAP",
-    "BNB-USDT-SWAP",
     "TRUMP-USDT-SWAP",
     "BZ-USDT-SWAP",
     "CL-USDT-SWAP",
+    "ENS-USDT-SWAP",
+    "ZEN-USDT-SWAP",
+    "LIT-USDT-SWAP",
     "MSTR-USDT-SWAP",
     "ENA-USDT-SWAP"
   ]
