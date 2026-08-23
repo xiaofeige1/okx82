@@ -1,9 +1,8 @@
 {
-  "localTime": "2026/8/23 04:00:46",
-  "executionTime": "7.04秒",
-  "count": 24,
+  "localTime": "2026/8/23 08:01:00",
+  "executionTime": "5.92秒",
+  "count": 16,
   "symbols": [
-    "BTC-USDT-SWAP",
     "ZEC-USDT-SWAP",
     "HYPE-USDT-SWAP",
     "DASH-USDT-SWAP",
@@ -11,21 +10,14 @@
     "AAVE-USDT-SWAP",
     "XPT-USDT-SWAP",
     "CL-USDT-SWAP",
-    "SUI-USDT-SWAP",
-    "INJ-USDT-SWAP",
-    "LINK-USDT-SWAP",
     "UNI-USDT-SWAP",
     "ZEN-USDT-SWAP",
     "ENS-USDT-SWAP",
     "LTC-USDT-SWAP",
-    "AVAX-USDT-SWAP",
-    "ZRO-USDT-SWAP",
     "CRV-USDT-SWAP",
     "ENA-USDT-SWAP",
-    "WIF-USDT-SWAP",
-    "OP-USDT-SWAP",
-    "ETHFI-USDT-SWAP",
     "MSTR-USDT-SWAP",
-    "LDO-USDT-SWAP"
+    "WIF-USDT-SWAP",
+    "OP-USDT-SWAP"
   ]
 }
