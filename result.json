@@ -1,7 +1,7 @@
 {
-  "localTime": "2026/8/25 04:00:24",
-  "executionTime": "7.87秒",
-  "count": 19,
+  "localTime": "2026/8/25 08:00:17",
+  "executionTime": "4.83秒",
+  "count": 20,
   "symbols": [
     "BTC-USDT-SWAP",
     "BNB-USDT-SWAP",
@@ -14,13 +14,14 @@
     "MSTR-USDT-SWAP",
     "TRB-USDT-SWAP",
     "AR-USDT-SWAP",
+    "WIF-USDT-SWAP",
     "ENS-USDT-SWAP",
     "VIRTUAL-USDT-SWAP",
-    "GRASS-USDT-SWAP",
     "ASTER-USDT-SWAP",
-    "ZEN-USDT-SWAP",
     "AVAX-USDT-SWAP",
-    "WIF-USDT-SWAP",
-    "CRV-USDT-SWAP"
+    "GRASS-USDT-SWAP",
+    "ZEN-USDT-SWAP",
+    "CRV-USDT-SWAP",
+    "LPT-USDT-SWAP"
   ]
 }
