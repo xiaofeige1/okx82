@@ -1,23 +1,8 @@
 {
-  "localTime": "2026/8/25 12:00:14",
-  "executionTime": "7.17秒",
-  "count": 16,
+  "localTime": "2026/8/26 01:00:17",
+  "executionTime": "6.98秒",
+  "count": 1,
   "symbols": [
-    "BNB-USDT-SWAP",
-    "TAO-USDT-SWAP",
-    "DASH-USDT-SWAP",
-    "SOL-USDT-SWAP",
-    "INJ-USDT-SWAP",
-    "LINK-USDT-SWAP",
-    "TRB-USDT-SWAP",
-    "AR-USDT-SWAP",
-    "ENS-USDT-SWAP",
-    "VIRTUAL-USDT-SWAP",
-    "AVAX-USDT-SWAP",
-    "ASTER-USDT-SWAP",
-    "CRV-USDT-SWAP",
-    "GRASS-USDT-SWAP",
-    "GOOGL-USDT-SWAP",
-    "LPT-USDT-SWAP"
+    "ASTER-USDT-SWAP"
   ]
 }
