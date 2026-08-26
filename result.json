@@ -1,8 +1,11 @@
 {
-  "localTime": "2026/8/26 01:00:17",
-  "executionTime": "6.98秒",
-  "count": 1,
+  "localTime": "2026/8/26 04:00:16",
+  "executionTime": "7.34秒",
+  "count": 4,
   "symbols": [
-    "ASTER-USDT-SWAP"
+    "MRVL-USDT-SWAP",
+    "ASTER-USDT-SWAP",
+    "SPX-USDT-SWAP",
+    "STX-USDT-SWAP"
   ]
 }
