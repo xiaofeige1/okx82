@@ -1,13 +1,14 @@
 {
-  "localTime": "2026/8/27 04:00:13",
-  "executionTime": "4.63秒",
-  "count": 6,
+  "localTime": "2026/8/27 08:00:13",
+  "executionTime": "6.43秒",
+  "count": 7,
   "symbols": [
+    "GIGGLE-USDT-SWAP",
     "BICO-USDT-SWAP",
     "FARTCOIN-USDT-SWAP",
-    "MRVL-USDT-SWAP",
-    "LITE-USDT-SWAP",
     "META-USDT-SWAP",
-    "SPX-USDT-SWAP"
+    "SPX-USDT-SWAP",
+    "ZHIPU-USDT-SWAP",
+    "LIGHT-USDT-SWAP"
   ]
 }
