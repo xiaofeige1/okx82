@@ -1,13 +1,13 @@
 {
-  "localTime": "2026/8/27 01:00:16",
-  "executionTime": "7.31秒",
+  "localTime": "2026/8/27 04:00:13",
+  "executionTime": "4.63秒",
   "count": 6,
   "symbols": [
     "BICO-USDT-SWAP",
-    "EDEN-USDT-SWAP",
     "FARTCOIN-USDT-SWAP",
     "MRVL-USDT-SWAP",
     "LITE-USDT-SWAP",
-    "META-USDT-SWAP"
+    "META-USDT-SWAP",
+    "SPX-USDT-SWAP"
   ]
 }
