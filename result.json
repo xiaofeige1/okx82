@@ -1,15 +1,10 @@
 {
-  "localTime": "2026/8/28 08:00:16",
-  "executionTime": "6.49秒",
-  "count": 8,
+  "localTime": "2026/8/28 12:00:18",
+  "executionTime": "4.78秒",
+  "count": 3,
   "symbols": [
-    "TRUMP-USDT-SWAP",
     "SPCX-USDT-SWAP",
-    "LINK-USDT-SWAP",
-    "MSTR-USDT-SWAP",
-    "CRCL-USDT-SWAP",
     "EDEN-USDT-SWAP",
-    "LITE-USDT-SWAP",
-    "QQQ-USDT-SWAP"
+    "LITE-USDT-SWAP"
   ]
 }
