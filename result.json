@@ -1,23 +1,16 @@
 {
-  "localTime": "2026/8/28 01:00:13",
-  "executionTime": "7.80秒",
-  "count": 16,
+  "localTime": "2026/8/28 04:00:12",
+  "executionTime": "6.54秒",
+  "count": 9,
   "symbols": [
-    "HYPE-USDT-SWAP",
-    "GIGGLE-USDT-SWAP",
     "SOXL-USDT-SWAP",
     "SPCX-USDT-SWAP",
-    "WLD-USDT-SWAP",
     "LINK-USDT-SWAP",
-    "CRCL-USDT-SWAP",
     "MSTR-USDT-SWAP",
+    "CRCL-USDT-SWAP",
     "UNI-USDT-SWAP",
-    "ENS-USDT-SWAP",
     "LITE-USDT-SWAP",
-    "WIF-USDT-SWAP",
-    "ZRO-USDT-SWAP",
-    "ZHIPU-USDT-SWAP",
     "QQQ-USDT-SWAP",
-    "MERL-USDT-SWAP"
+    "ZHIPU-USDT-SWAP"
   ]
 }
