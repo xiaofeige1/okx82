@@ -1,34 +1,34 @@
 {
-  "localTime": "2026/8/29 08:00:15",
-  "executionTime": "6.21秒",
+  "localTime": "2026/8/29 12:00:14",
+  "executionTime": "7.55秒",
   "count": 2,
   "symbols": [
-    "TRUMP-USDT-SWAP",
+    "SKHY-USDT-SWAP",
     "SPCX-USDT-SWAP"
   ],
   "details": [
     {
-      "symbol": "TRUMP-USDT-SWAP",
-      "price": "2.7380",
-      "ema80": "2.5791",
-      "maxHigh": "3.6840",
-      "median": "2.8925",
-      "supportLow": "2.1010",
-      "holdBars": 4,
-      "changePercent": "0.11",
-      "volUsdt": 11868381790,
+      "symbol": "SKHY-USDT-SWAP",
+      "price": "162.1800",
+      "ema80": "161.0914",
+      "maxHigh": "170.1600",
+      "median": "160.6300",
+      "supportLow": "151.1000",
+      "holdBars": 99,
+      "changePercent": "1.00",
+      "volUsdt": 50475435,
       "rank": 1
     },
     {
       "symbol": "SPCX-USDT-SWAP",
-      "price": "140.8100",
-      "ema80": "139.7871",
+      "price": "140.6400",
+      "ema80": "139.8721",
       "maxHigh": "143.1500",
       "median": "140.5250",
       "supportLow": "137.9000",
-      "holdBars": 15,
-      "changePercent": "-0.07",
-      "volUsdt": 184960514,
+      "holdBars": 19,
+      "changePercent": "-0.19",
+      "volUsdt": 178449859,
       "rank": 2
     }
   ]
