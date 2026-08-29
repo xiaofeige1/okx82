@@ -1,35 +1,48 @@
 {
-  "localTime": "2026/8/29 12:00:14",
-  "executionTime": "7.55秒",
-  "count": 2,
+  "localTime": "2026/8/29 14:13:00",
+  "executionTime": "4.32秒",
+  "count": 3,
   "symbols": [
+    "ICP-USDT-SWAP",
     "SKHY-USDT-SWAP",
     "SPCX-USDT-SWAP"
   ],
   "details": [
     {
-      "symbol": "SKHY-USDT-SWAP",
-      "price": "162.1800",
-      "ema80": "161.0914",
-      "maxHigh": "170.1600",
-      "median": "160.6300",
-      "supportLow": "151.1000",
-      "holdBars": 99,
-      "changePercent": "1.00",
-      "volUsdt": 50475435,
+      "symbol": "ICP-USDT-SWAP",
+      "price": "2.4670",
+      "ema80": "2.4176",
+      "maxHigh": "2.7150",
+      "median": "2.4425",
+      "supportLow": "2.1700",
+      "holdBars": 177,
+      "changePercent": "3.31",
+      "volUsdt": 913212619,
       "rank": 1
     },
     {
+      "symbol": "SKHY-USDT-SWAP",
+      "price": "161.9200",
+      "ema80": "161.1372",
+      "maxHigh": "170.1600",
+      "median": "160.6300",
+      "supportLow": "151.1000",
+      "holdBars": 101,
+      "changePercent": "0.83",
+      "volUsdt": 33990779,
+      "rank": 2
+    },
+    {
       "symbol": "SPCX-USDT-SWAP",
-      "price": "140.6400",
-      "ema80": "139.8721",
+      "price": "140.5700",
+      "ema80": "139.9052",
       "maxHigh": "143.1500",
       "median": "140.5250",
       "supportLow": "137.9000",
-      "holdBars": 19,
-      "changePercent": "-0.19",
-      "volUsdt": 178449859,
-      "rank": 2
+      "holdBars": 21,
+      "changePercent": "-0.24",
+      "volUsdt": 112880805,
+      "rank": 3
     }
   ]
 }
