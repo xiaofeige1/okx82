@@ -1,6 +1,6 @@
 {
-  "localTime": "2026/8/29 14:13:00",
-  "executionTime": "4.32秒",
+  "localTime": "2026/8/29 14:18:13",
+  "executionTime": "6.85秒",
   "count": 3,
   "symbols": [
     "ICP-USDT-SWAP",
@@ -10,38 +10,38 @@
   "details": [
     {
       "symbol": "ICP-USDT-SWAP",
-      "price": "2.4670",
-      "ema80": "2.4176",
+      "price": "2.4700",
+      "ema80": "2.4177",
       "maxHigh": "2.7150",
       "median": "2.4425",
       "supportLow": "2.1700",
       "holdBars": 177,
-      "changePercent": "3.31",
-      "volUsdt": 913212619,
+      "changePercent": "3.43",
+      "volUsdt": 919492389,
       "rank": 1
     },
     {
       "symbol": "SKHY-USDT-SWAP",
-      "price": "161.9200",
-      "ema80": "161.1372",
+      "price": "161.8800",
+      "ema80": "161.1362",
       "maxHigh": "170.1600",
       "median": "160.6300",
       "supportLow": "151.1000",
       "holdBars": 101,
-      "changePercent": "0.83",
-      "volUsdt": 33990779,
+      "changePercent": "0.81",
+      "volUsdt": 33150701,
       "rank": 2
     },
     {
       "symbol": "SPCX-USDT-SWAP",
-      "price": "140.5700",
-      "ema80": "139.9052",
+      "price": "140.5800",
+      "ema80": "139.9054",
       "maxHigh": "143.1500",
       "median": "140.5250",
       "supportLow": "137.9000",
       "holdBars": 21,
-      "changePercent": "-0.24",
-      "volUsdt": 112880805,
+      "changePercent": "-0.23",
+      "volUsdt": 109110783,
       "rank": 3
     }
   ]
