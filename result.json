@@ -1,61 +1,22 @@
 {
-  "localTime": "2026/8/28 14:19:31",
-  "executionTime": "7.79秒",
-  "count": 4,
+  "localTime": "2026/8/29 01:00:16",
+  "executionTime": "5.30秒",
+  "count": 1,
   "symbols": [
-    "LIGHT-USDT-SWAP",
-    "SPCX-USDT-SWAP",
-    "TSLA-USDT-SWAP",
-    "GIGGLE-USDT-SWAP"
+    "SPCX-USDT-SWAP"
   ],
   "details": [
     {
-      "symbol": "LIGHT-USDT-SWAP",
-      "price": "0.2273",
-      "ema80": "0.1812",
-      "maxHigh": "0.2408",
-      "median": "0.2274",
-      "supportLow": "0.2141",
-      "holdBars": 2,
-      "changePercent": "22.67",
-      "volUsdt": 35919490,
-      "rank": 1
-    },
-    {
       "symbol": "SPCX-USDT-SWAP",
-      "price": "142.6800",
-      "ema80": "139.2538",
-      "maxHigh": "142.8500",
-      "median": "141.9900",
-      "supportLow": "141.1300",
-      "holdBars": 0,
-      "changePercent": "1.89",
-      "volUsdt": 156100599,
-      "rank": 2
-    },
-    {
-      "symbol": "TSLA-USDT-SWAP",
-      "price": "352.9400",
-      "ema80": "352.6368",
-      "maxHigh": "368.5600",
-      "median": "355.7500",
-      "supportLow": "342.9400",
-      "holdBars": 6,
-      "changePercent": "-0.49",
-      "volUsdt": 14088613,
-      "rank": 3
-    },
-    {
-      "symbol": "GIGGLE-USDT-SWAP",
-      "price": "37.1600",
-      "ema80": "36.6959",
-      "maxHigh": "42.2400",
-      "median": "35.4450",
-      "supportLow": "28.6500",
-      "holdBars": 153,
-      "changePercent": "-1.59",
-      "volUsdt": 551810913,
-      "rank": 4
+      "price": "140.7800",
+      "ema80": "139.5876",
+      "maxHigh": "143.1500",
+      "median": "140.5250",
+      "supportLow": "137.9000",
+      "holdBars": 8,
+      "changePercent": "-0.09",
+      "volUsdt": 190619228,
+      "rank": 1
     }
   ]
 }
