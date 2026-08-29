@@ -1,22 +1,35 @@
 {
-  "localTime": "2026/8/29 01:00:16",
-  "executionTime": "5.30秒",
-  "count": 1,
+  "localTime": "2026/8/29 04:00:15",
+  "executionTime": "6.37秒",
+  "count": 2,
   "symbols": [
-    "SPCX-USDT-SWAP"
+    "SPCX-USDT-SWAP",
+    "COAI-USDT-SWAP"
   ],
   "details": [
     {
       "symbol": "SPCX-USDT-SWAP",
-      "price": "140.7800",
-      "ema80": "139.5876",
+      "price": "140.7400",
+      "ema80": "139.6743",
       "maxHigh": "143.1500",
       "median": "140.5250",
       "supportLow": "137.9000",
-      "holdBars": 8,
-      "changePercent": "-0.09",
-      "volUsdt": 190619228,
+      "holdBars": 11,
+      "changePercent": "-0.12",
+      "volUsdt": 188965977,
       "rank": 1
+    },
+    {
+      "symbol": "COAI-USDT-SWAP",
+      "price": "0.3083",
+      "ema80": "0.2982",
+      "maxHigh": "0.3495",
+      "median": "0.3048",
+      "supportLow": "0.2601",
+      "holdBars": 167,
+      "changePercent": "-0.16",
+      "volUsdt": 8516632,
+      "rank": 2
     }
   ]
 }
