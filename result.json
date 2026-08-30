@@ -1,48 +1,22 @@
 {
-  "localTime": "2026/8/30 08:00:13",
-  "executionTime": "2.83秒",
-  "count": 3,
+  "localTime": "2026/8/30 12:00:11",
+  "executionTime": "4.92秒",
+  "count": 1,
   "symbols": [
-    "DOS-USDT-SWAP",
-    "SKHYNIX-USDT-SWAP",
-    "SKHY-USDT-SWAP"
+    "SKHYNIX-USDT-SWAP"
   ],
   "details": [
     {
-      "symbol": "DOS-USDT-SWAP",
-      "price": "0.3118",
-      "ema80": "0.2685",
-      "maxHigh": "0.3187",
-      "median": "0.3040",
-      "supportLow": "0.2894",
-      "holdBars": 2,
-      "changePercent": "10.88",
-      "volUsdt": 8047922,
-      "rank": 1
-    },
-    {
       "symbol": "SKHYNIX-USDT-SWAP",
-      "price": "1234.2200",
-      "ema80": "1224.4175",
+      "price": "1234.4900",
+      "ema80": "1225.3590",
       "maxHigh": "1293.9800",
       "median": "1212.4150",
       "supportLow": "1130.8500",
-      "holdBars": 120,
-      "changePercent": "-0.01",
-      "volUsdt": 33792445,
-      "rank": 2
-    },
-    {
-      "symbol": "SKHY-USDT-SWAP",
-      "price": "163.7700",
-      "ema80": "162.0480",
-      "maxHigh": "170.1600",
-      "median": "160.6300",
-      "supportLow": "151.1000",
-      "holdBars": 119,
-      "changePercent": "-0.13",
-      "volUsdt": 8711873,
-      "rank": 3
+      "holdBars": 124,
+      "changePercent": "0.01",
+      "volUsdt": 33031617,
+      "rank": 1
     }
   ]
 }
