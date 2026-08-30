@@ -1,0 +1,61 @@
+name: okx82
+
+on:
+  repository_dispatch:
+    types: [trigger_okx82]  # 外部定时器触发的事件名称
+  workflow_dispatch:        # 保留手动触发按钮
+
+# 核心防错 1：并发排队锁
+# 保证同一时间只有一个 Runner 在运行和 Push，后续触发的请求会自动排队，防止并发打架
+concurrency:
+  group: okx82-single-runner
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0    # 拉取完整提交历史，确保 Git 操作顺畅
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install
+        run: npm install
+
+      - name: Run Screener
+        run: node okx853.js
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL || 'onboarding@resend.dev' }}
+
+      # 核心防错 2：冲突自动覆盖策略
+      # 每次 Commit 前强制对齐远程分支，即使出现冲突也无脑以当前最新生成的 result.json 为准
+      - name: Commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # 1. 获取远程最新状态并软重置，把本地环境同步到远程主干
+          git fetch origin main
+          git reset --soft origin/main
+
+          # 2. 重新暂存最新生成的 result.json
+          git add result.json
+
+          # 3. 只有当 result.json 发生实际变化时才提交并推送
+          if ! git diff --cached --quiet; then
+            git commit -m "update result [skip ci]"
+            git push origin main
+          else
+            echo "No changes detected in result.json, skipping push."
+          fi
