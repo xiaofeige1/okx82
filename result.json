@@ -1,48 +1,61 @@
 {
-  "localTime": "2026/8/29 14:18:13",
-  "executionTime": "6.85秒",
-  "count": 3,
+  "localTime": "2026/8/30 01:00:11",
+  "executionTime": "5.05秒",
+  "count": 4,
   "symbols": [
-    "ICP-USDT-SWAP",
     "SKHY-USDT-SWAP",
-    "SPCX-USDT-SWAP"
+    "DASH-USDT-SWAP",
+    "UNI-USDT-SWAP",
+    "ICP-USDT-SWAP"
   ],
   "details": [
     {
-      "symbol": "ICP-USDT-SWAP",
-      "price": "2.4700",
-      "ema80": "2.4177",
-      "maxHigh": "2.7150",
-      "median": "2.4425",
-      "supportLow": "2.1700",
-      "holdBars": 177,
-      "changePercent": "3.43",
-      "volUsdt": 919492389,
-      "rank": 1
-    },
-    {
       "symbol": "SKHY-USDT-SWAP",
-      "price": "161.8800",
-      "ema80": "161.1362",
+      "price": "163.7200",
+      "ema80": "161.6625",
       "maxHigh": "170.1600",
       "median": "160.6300",
       "supportLow": "151.1000",
-      "holdBars": 101,
-      "changePercent": "0.81",
-      "volUsdt": 33150701,
+      "holdBars": 112,
+      "changePercent": "-0.16",
+      "volUsdt": 8458722,
+      "rank": 1
+    },
+    {
+      "symbol": "DASH-USDT-SWAP",
+      "price": "41.1400",
+      "ema80": "39.6458",
+      "maxHigh": "47.6800",
+      "median": "41.6100",
+      "supportLow": "35.5400",
+      "holdBars": 176,
+      "changePercent": "-0.29",
+      "volUsdt": 1576428726,
       "rank": 2
     },
     {
-      "symbol": "SPCX-USDT-SWAP",
-      "price": "140.5800",
-      "ema80": "139.9054",
-      "maxHigh": "143.1500",
-      "median": "140.5250",
-      "supportLow": "137.9000",
-      "holdBars": 21,
-      "changePercent": "-0.23",
-      "volUsdt": 109110783,
+      "symbol": "UNI-USDT-SWAP",
+      "price": "4.6480",
+      "ema80": "4.4876",
+      "maxHigh": "4.8410",
+      "median": "4.5925",
+      "supportLow": "4.3440",
+      "holdBars": 9,
+      "changePercent": "-0.64",
+      "volUsdt": 32569428,
       "rank": 3
+    },
+    {
+      "symbol": "ICP-USDT-SWAP",
+      "price": "2.4630",
+      "ema80": "2.4364",
+      "maxHigh": "2.7150",
+      "median": "2.4425",
+      "supportLow": "2.1700",
+      "holdBars": 188,
+      "changePercent": "-0.73",
+      "volUsdt": 929884584,
+      "rank": 4
     }
   ]
 }
