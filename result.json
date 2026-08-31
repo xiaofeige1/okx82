@@ -1,48 +1,22 @@
 {
-  "localTime": "2026/8/30 12:27:12",
-  "executionTime": "4.27秒",
-  "count": 3,
+  "localTime": "2026/8/31 01:00:18",
+  "executionTime": "5.55秒",
+  "count": 1,
   "symbols": [
-    "UNI-USDT-SWAP",
-    "EGLD-USDT-SWAP",
-    "SKHYNIX-USDT-SWAP"
+    "ZEN-USDT-SWAP"
   ],
   "details": [
     {
-      "symbol": "UNI-USDT-SWAP",
-      "price": "5.1930",
-      "ema80": "4.5971",
-      "maxHigh": "5.1250",
-      "median": "5.1085",
-      "supportLow": "5.0920",
-      "holdBars": 0,
-      "changePercent": "11.01",
-      "volUsdt": 127992006,
+      "symbol": "ZEN-USDT-SWAP",
+      "price": "5.4260",
+      "ema80": "5.1753",
+      "maxHigh": "5.9640",
+      "median": "5.3825",
+      "supportLow": "4.8010",
+      "holdBars": 7,
+      "changePercent": "3.65",
+      "volUsdt": 43502914,
       "rank": 1
-    },
-    {
-      "symbol": "EGLD-USDT-SWAP",
-      "price": "4.0050",
-      "ema80": "3.5747",
-      "maxHigh": "3.9990",
-      "median": "3.9745",
-      "supportLow": "3.9500",
-      "holdBars": 0,
-      "changePercent": "10.64",
-      "volUsdt": 38286446,
-      "rank": 2
-    },
-    {
-      "symbol": "SKHYNIX-USDT-SWAP",
-      "price": "1234.6900",
-      "ema80": "1225.3640",
-      "maxHigh": "1293.9800",
-      "median": "1212.4150",
-      "supportLow": "1130.8500",
-      "holdBars": 124,
-      "changePercent": "0.03",
-      "volUsdt": 33107983,
-      "rank": 3
     }
   ]
 }
