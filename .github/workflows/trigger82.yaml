@@ -9,7 +9,7 @@ on:
 # 保证同一时间只有一个 Runner 在运行和 Push，后续触发的请求会自动排队，防止并发打架
 concurrency:
   group: okx82-single-runner
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   run:
