@@ -1,6 +1,6 @@
 {
-  "localTime": "2026/8/31 01:00:18",
-  "executionTime": "5.55秒",
+  "localTime": "2026/8/31 01:00:41",
+  "executionTime": "4.04秒",
   "count": 1,
   "symbols": [
     "ZEN-USDT-SWAP"
@@ -8,14 +8,14 @@
   "details": [
     {
       "symbol": "ZEN-USDT-SWAP",
-      "price": "5.4260",
-      "ema80": "5.1753",
+      "price": "5.4360",
+      "ema80": "5.1755",
       "maxHigh": "5.9640",
       "median": "5.3825",
       "supportLow": "4.8010",
       "holdBars": 7,
-      "changePercent": "3.65",
-      "volUsdt": 43502914,
+      "changePercent": "3.84",
+      "volUsdt": 43736297,
       "rank": 1
     }
   ]
