@@ -1,7 +1,22 @@
 {
-  "localTime": "2026/8/31 04:00:33",
-  "executionTime": "6.37秒",
-  "count": 0,
-  "symbols": [],
-  "details": []
+  "localTime": "2026/8/31 08:00:27",
+  "executionTime": "7.35秒",
+  "count": 1,
+  "symbols": [
+    "EGLD-USDT-SWAP"
+  ],
+  "details": [
+    {
+      "symbol": "EGLD-USDT-SWAP",
+      "price": "3.9830",
+      "ema80": "3.6822",
+      "maxHigh": "4.0410",
+      "median": "3.8560",
+      "supportLow": "3.6710",
+      "holdBars": 4,
+      "changePercent": "6.04",
+      "volUsdt": 52103535,
+      "rank": 1
+    }
+  ]
 }
