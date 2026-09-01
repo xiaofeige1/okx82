@@ -1,22 +1,126 @@
 {
-  "localTime": "2026/8/31 12:00:32",
-  "executionTime": "6.61秒",
-  "count": 1,
+  "localTime": "2026/9/1 01:00:24",
+  "executionTime": "7.40秒",
+  "count": 9,
   "symbols": [
-    "EGLD-USDT-SWAP"
+    "SKHY-USDT-SWAP",
+    "EGLD-USDT-SWAP",
+    "ENS-USDT-SWAP",
+    "MU-USDT-SWAP",
+    "CL-USDT-SWAP",
+    "ZHIPU-USDT-SWAP",
+    "SPCX-USDT-SWAP",
+    "MINIMAX-USDT-SWAP",
+    "ZEN-USDT-SWAP"
   ],
   "details": [
     {
+      "symbol": "SKHY-USDT-SWAP",
+      "price": "166.0200",
+      "ema80": "162.3029",
+      "maxHigh": "170.1600",
+      "median": "160.6300",
+      "supportLow": "151.1000",
+      "holdBars": 160,
+      "changePercent": "1.10",
+      "volUsdt": 68114443,
+      "rank": 1
+    },
+    {
       "symbol": "EGLD-USDT-SWAP",
-      "price": "3.9140",
-      "ema80": "3.7028",
+      "price": "3.9170",
+      "ema80": "3.7458",
       "maxHigh": "4.0410",
       "median": "3.8560",
       "supportLow": "3.6710",
+      "holdBars": 21,
+      "changePercent": "1.06",
+      "volUsdt": 14620864,
+      "rank": 2
+    },
+    {
+      "symbol": "ENS-USDT-SWAP",
+      "price": "5.8710",
+      "ema80": "5.7464",
+      "maxHigh": "6.0940",
+      "median": "5.7840",
+      "supportLow": "5.4740",
+      "holdBars": 33,
+      "changePercent": "0.48",
+      "volUsdt": 14765847,
+      "rank": 3
+    },
+    {
+      "symbol": "MU-USDT-SWAP",
+      "price": "960.9000",
+      "ema80": "937.6451",
+      "maxHigh": "984.3700",
+      "median": "945.5650",
+      "supportLow": "906.7600",
+      "holdBars": 12,
+      "changePercent": "0.44",
+      "volUsdt": 127995630,
+      "rank": 4
+    },
+    {
+      "symbol": "CL-USDT-SWAP",
+      "price": "86.5700",
+      "ema80": "84.4900",
+      "maxHigh": "86.6900",
+      "median": "85.9150",
+      "supportLow": "85.1400",
+      "holdBars": 6,
+      "changePercent": "0.23",
+      "volUsdt": 886701622,
+      "rank": 5
+    },
+    {
+      "symbol": "ZHIPU-USDT-SWAP",
+      "price": "149.6200",
+      "ema80": "141.4249",
+      "maxHigh": "155.8900",
+      "median": "139.6750",
+      "supportLow": "123.4600",
+      "holdBars": 131,
+      "changePercent": "0.19",
+      "volUsdt": 16865361,
+      "rank": 6
+    },
+    {
+      "symbol": "SPCX-USDT-SWAP",
+      "price": "143.3100",
+      "ema80": "141.1212",
+      "maxHigh": "143.9500",
+      "median": "142.8650",
+      "supportLow": "141.7800",
       "holdBars": 8,
-      "changePercent": "4.21",
-      "volUsdt": 36485709,
-      "rank": 1
+      "changePercent": "-0.11",
+      "volUsdt": 180039761,
+      "rank": 7
+    },
+    {
+      "symbol": "MINIMAX-USDT-SWAP",
+      "price": "45.2300",
+      "ema80": "41.5764",
+      "maxHigh": "45.6900",
+      "median": "44.8950",
+      "supportLow": "44.1000",
+      "holdBars": 13,
+      "changePercent": "-0.22",
+      "volUsdt": 13033908,
+      "rank": 8
+    },
+    {
+      "symbol": "ZEN-USDT-SWAP",
+      "price": "5.5350",
+      "ema80": "5.3327",
+      "maxHigh": "5.9640",
+      "median": "5.3825",
+      "supportLow": "4.8010",
+      "holdBars": 31,
+      "changePercent": "-1.77",
+      "volUsdt": 82898492,
+      "rank": 9
     }
   ]
 }
