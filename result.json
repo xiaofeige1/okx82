@@ -1,74 +1,22 @@
 {
-  "localTime": "2026/9/2 08:01:17",
-  "executionTime": "5.27秒",
-  "count": 5,
+  "localTime": "2026/9/2 12:01:15",
+  "executionTime": "8.30秒",
+  "count": 1,
   "symbols": [
-    "UNI-USDT-SWAP",
-    "EGLD-USDT-SWAP",
-    "USELESS-USDT-SWAP",
-    "FIL-USDT-SWAP",
-    "AR-USDT-SWAP"
+    "AAPL-USDT-SWAP"
   ],
   "details": [
     {
-      "symbol": "UNI-USDT-SWAP",
-      "price": "6.2770",
-      "ema80": "5.4386",
-      "maxHigh": "6.3780",
-      "median": "6.2750",
-      "supportLow": "6.1720",
-      "holdBars": 2,
-      "changePercent": "7.43",
-      "volUsdt": 357132057,
+      "symbol": "AAPL-USDT-SWAP",
+      "price": "326.6400",
+      "ema80": "321.1615",
+      "maxHigh": "327.3300",
+      "median": "325.8200",
+      "supportLow": "324.3100",
+      "holdBars": 1,
+      "changePercent": "0.42",
+      "volUsdt": 9700365,
       "rank": 1
-    },
-    {
-      "symbol": "EGLD-USDT-SWAP",
-      "price": "4.1830",
-      "ema80": "3.8888",
-      "maxHigh": "4.3020",
-      "median": "4.2275",
-      "supportLow": "4.1530",
-      "holdBars": 2,
-      "changePercent": "4.24",
-      "volUsdt": 25530247,
-      "rank": 2
-    },
-    {
-      "symbol": "USELESS-USDT-SWAP",
-      "price": "0.1149",
-      "ema80": "0.0901",
-      "maxHigh": "0.1260",
-      "median": "0.1160",
-      "supportLow": "0.1061",
-      "holdBars": 1,
-      "changePercent": "3.00",
-      "volUsdt": 15628615,
-      "rank": 3
-    },
-    {
-      "symbol": "FIL-USDT-SWAP",
-      "price": "0.8007",
-      "ema80": "0.7197",
-      "maxHigh": "0.8107",
-      "median": "0.7975",
-      "supportLow": "0.7844",
-      "holdBars": 1,
-      "changePercent": "2.85",
-      "volUsdt": 1936109907,
-      "rank": 4
-    },
-    {
-      "symbol": "AR-USDT-SWAP",
-      "price": "2.2770",
-      "ema80": "2.1739",
-      "maxHigh": "2.3720",
-      "median": "2.1895",
-      "supportLow": "2.0070",
-      "holdBars": 25,
-      "changePercent": "0.04",
-      "volUsdt": 74421871,
-      "rank": 5
     }
   ]
 }
