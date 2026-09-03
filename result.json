@@ -1,22 +1,74 @@
 {
-  "localTime": "2026/9/2 12:01:15",
-  "executionTime": "8.30秒",
-  "count": 1,
+  "localTime": "2026/9/3 01:01:09",
+  "executionTime": "8.02秒",
+  "count": 5,
   "symbols": [
-    "AAPL-USDT-SWAP"
+    "AR-USDT-SWAP",
+    "USELESS-USDT-SWAP",
+    "CL-USDT-SWAP",
+    "BZ-USDT-SWAP",
+    "MU-USDT-SWAP"
   ],
   "details": [
     {
-      "symbol": "AAPL-USDT-SWAP",
-      "price": "326.6400",
-      "ema80": "321.1615",
-      "maxHigh": "327.3300",
-      "median": "325.8200",
-      "supportLow": "324.3100",
-      "holdBars": 1,
-      "changePercent": "0.42",
-      "volUsdt": 9700365,
+      "symbol": "AR-USDT-SWAP",
+      "price": "2.3330",
+      "ema80": "2.2044",
+      "maxHigh": "2.3510",
+      "median": "2.2620",
+      "supportLow": "2.1730",
+      "holdBars": 8,
+      "changePercent": "2.28",
+      "volUsdt": 32764816,
       "rank": 1
+    },
+    {
+      "symbol": "USELESS-USDT-SWAP",
+      "price": "0.1249",
+      "ema80": "0.0997",
+      "maxHigh": "0.1356",
+      "median": "0.1260",
+      "supportLow": "0.1164",
+      "holdBars": 1,
+      "changePercent": "1.80",
+      "volUsdt": 15081049,
+      "rank": 2
+    },
+    {
+      "symbol": "CL-USDT-SWAP",
+      "price": "90.5700",
+      "ema80": "88.2553",
+      "maxHigh": "92.2200",
+      "median": "90.5950",
+      "supportLow": "88.9700",
+      "holdBars": 9,
+      "changePercent": "0.08",
+      "volUsdt": 1169524523,
+      "rank": 3
+    },
+    {
+      "symbol": "BZ-USDT-SWAP",
+      "price": "95.0200",
+      "ema80": "92.8882",
+      "maxHigh": "96.8800",
+      "median": "95.1850",
+      "supportLow": "93.4900",
+      "holdBars": 11,
+      "changePercent": "-0.07",
+      "volUsdt": 2427705888,
+      "rank": 4
+    },
+    {
+      "symbol": "MU-USDT-SWAP",
+      "price": "951.7100",
+      "ema80": "940.5110",
+      "maxHigh": "984.3700",
+      "median": "945.5650",
+      "supportLow": "906.7600",
+      "holdBars": 60,
+      "changePercent": "-0.39",
+      "volUsdt": 118472266,
+      "rank": 5
     }
   ]
 }
