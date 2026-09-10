@@ -1,48 +1,7 @@
 {
-  "localTime": "2026/9/10 08:00:38",
-  "executionTime": "7.96秒",
-  "count": 3,
-  "symbols": [
-    "META-USDT-SWAP",
-    "ETHFI-USDT-SWAP",
-    "MU-USDT-SWAP"
-  ],
-  "details": [
-    {
-      "symbol": "META-USDT-SWAP",
-      "price": "657.5000",
-      "ema80": "630.0443",
-      "maxHigh": "657.8300",
-      "median": "652.1600",
-      "supportLow": "646.4900",
-      "holdBars": 1,
-      "changePercent": "1.11",
-      "volUsdt": 10279487,
-      "rank": 1
-    },
-    {
-      "symbol": "ETHFI-USDT-SWAP",
-      "price": "0.6187",
-      "ema80": "0.6014",
-      "maxHigh": "0.6398",
-      "median": "0.6179",
-      "supportLow": "0.5960",
-      "holdBars": 17,
-      "changePercent": "0.13",
-      "volUsdt": 9886536,
-      "rank": 2
-    },
-    {
-      "symbol": "MU-USDT-SWAP",
-      "price": "1023.3000",
-      "ema80": "1019.7989",
-      "maxHigh": "1057.8600",
-      "median": "1024.4650",
-      "supportLow": "991.0700",
-      "holdBars": 19,
-      "changePercent": "-0.34",
-      "volUsdt": 108517946,
-      "rank": 3
-    }
-  ]
+  "localTime": "2026/9/10 12:00:43",
+  "executionTime": "8.63秒",
+  "count": 0,
+  "symbols": [],
+  "details": []
 }
