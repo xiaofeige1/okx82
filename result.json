@@ -1,6 +1,6 @@
 {
-  "localTime": "2026/9/11 08:00:47",
-  "executionTime": "7.87秒",
+  "localTime": "2026/9/11 12:00:47",
+  "executionTime": "8.07秒",
   "count": 1,
   "symbols": [
     "AAPL-USDT-SWAP"
@@ -8,14 +8,14 @@
   "details": [
     {
       "symbol": "AAPL-USDT-SWAP",
-      "price": "326.2800",
-      "ema80": "320.9987",
+      "price": "326.6500",
+      "ema80": "321.5013",
       "maxHigh": "330.9700",
       "median": "320.7450",
       "supportLow": "310.5200",
-      "holdBars": 18,
-      "changePercent": "0.16",
-      "volUsdt": 24892890,
+      "holdBars": 22,
+      "changePercent": "0.27",
+      "volUsdt": 22916638,
       "rank": 1
     }
   ]
