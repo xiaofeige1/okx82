@@ -1,6 +1,6 @@
 {
-  "localTime": "2026/9/11 01:00:40",
-  "executionTime": "10.38秒",
+  "localTime": "2026/9/11 04:00:38",
+  "executionTime": "6.72秒",
   "count": 2,
   "symbols": [
     "AAPL-USDT-SWAP",
@@ -9,26 +9,26 @@
   "details": [
     {
       "symbol": "AAPL-USDT-SWAP",
-      "price": "325.8200",
-      "ema80": "320.0420",
+      "price": "325.5300",
+      "ema80": "320.4320",
       "maxHigh": "330.9700",
       "median": "320.7450",
       "supportLow": "310.5200",
-      "holdBars": 11,
-      "changePercent": "0.02",
-      "volUsdt": 25924699,
+      "holdBars": 14,
+      "changePercent": "-0.07",
+      "volUsdt": 25703650,
       "rank": 1
     },
     {
       "symbol": "PROS-USDT-SWAP",
-      "price": "0.4837",
-      "ema80": "0.4636",
+      "price": "0.4691",
+      "ema80": "0.4638",
       "maxHigh": "0.5662",
       "median": "0.5012",
       "supportLow": "0.4363",
-      "holdBars": 11,
-      "changePercent": "-1.81",
-      "volUsdt": 9883741,
+      "holdBars": 14,
+      "changePercent": "-4.77",
+      "volUsdt": 9337737,
       "rank": 2
     }
   ]
