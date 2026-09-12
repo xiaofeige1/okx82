@@ -1,22 +1,61 @@
 {
-  "localTime": "2026/9/11 12:00:47",
-  "executionTime": "8.07秒",
-  "count": 1,
+  "localTime": "2026/9/12 01:01:11",
+  "executionTime": "7.58秒",
+  "count": 4,
   "symbols": [
-    "AAPL-USDT-SWAP"
+    "ETHFI-USDT-SWAP",
+    "MRVL-USDT-SWAP",
+    "OKB-USDT-SWAP",
+    "RAY-USDT-SWAP"
   ],
   "details": [
     {
-      "symbol": "AAPL-USDT-SWAP",
-      "price": "326.6500",
-      "ema80": "321.5013",
-      "maxHigh": "330.9700",
-      "median": "320.7450",
-      "supportLow": "310.5200",
-      "holdBars": 22,
-      "changePercent": "0.27",
-      "volUsdt": 22916638,
+      "symbol": "ETHFI-USDT-SWAP",
+      "price": "0.6859",
+      "ema80": "0.6483",
+      "maxHigh": "0.7232",
+      "median": "0.6673",
+      "supportLow": "0.6115",
+      "holdBars": 12,
+      "changePercent": "1.75",
+      "volUsdt": 29888345,
       "rank": 1
+    },
+    {
+      "symbol": "MRVL-USDT-SWAP",
+      "price": "236.2800",
+      "ema80": "230.7747",
+      "maxHigh": "241.9000",
+      "median": "233.0550",
+      "supportLow": "224.2100",
+      "holdBars": 13,
+      "changePercent": "0.08",
+      "volUsdt": 19472232,
+      "rank": 2
+    },
+    {
+      "symbol": "OKB-USDT-SWAP",
+      "price": "113.0000",
+      "ema80": "112.5852",
+      "maxHigh": "118.3000",
+      "median": "113.1650",
+      "supportLow": "108.0300",
+      "holdBars": 16,
+      "changePercent": "-0.22",
+      "volUsdt": 2770999334,
+      "rank": 3
+    },
+    {
+      "symbol": "RAY-USDT-SWAP",
+      "price": "1.6439",
+      "ema80": "1.4251",
+      "maxHigh": "1.7396",
+      "median": "1.6177",
+      "supportLow": "1.4958",
+      "holdBars": 12,
+      "changePercent": "-1.20",
+      "volUsdt": 200110923,
+      "rank": 4
     }
   ]
 }
