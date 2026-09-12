@@ -1,74 +1,61 @@
 {
-  "localTime": "2026/9/12 04:01:32",
-  "executionTime": "5.55秒",
-  "count": 5,
+  "localTime": "2026/9/12 08:01:16",
+  "executionTime": "6.92秒",
+  "count": 4,
   "symbols": [
-    "ETHFI-USDT-SWAP",
-    "MINA-USDT-SWAP",
     "OKB-USDT-SWAP",
-    "TSLA-USDT-SWAP",
-    "MRVL-USDT-SWAP"
+    "RIVER-USDT-SWAP",
+    "MRVL-USDT-SWAP",
+    "LAB-USDT-SWAP"
   ],
   "details": [
     {
-      "symbol": "ETHFI-USDT-SWAP",
-      "price": "0.7193",
-      "ema80": "0.6530",
-      "maxHigh": "0.7232",
-      "median": "0.6673",
-      "supportLow": "0.6115",
-      "holdBars": 15,
-      "changePercent": "6.71",
-      "volUsdt": 30243838,
-      "rank": 1
-    },
-    {
-      "symbol": "MINA-USDT-SWAP",
-      "price": "0.1069",
-      "ema80": "0.0938",
-      "maxHigh": "0.1100",
-      "median": "0.1066",
-      "supportLow": "0.1032",
-      "holdBars": 0,
-      "changePercent": "1.75",
-      "volUsdt": 8972485,
-      "rank": 2
-    },
-    {
       "symbol": "OKB-USDT-SWAP",
-      "price": "114.7000",
-      "ema80": "112.7575",
+      "price": "114.3100",
+      "ema80": "112.8960",
       "maxHigh": "118.3000",
       "median": "113.1650",
       "supportLow": "108.0300",
-      "holdBars": 19,
-      "changePercent": "1.28",
-      "volUsdt": 3114700178,
-      "rank": 3
+      "holdBars": 23,
+      "changePercent": "0.94",
+      "volUsdt": 3082084861,
+      "rank": 1
     },
     {
-      "symbol": "TSLA-USDT-SWAP",
-      "price": "365.2700",
-      "ema80": "364.6280",
-      "maxHigh": "379.2500",
-      "median": "365.4900",
-      "supportLow": "351.7300",
-      "holdBars": 85,
-      "changePercent": "-0.02",
-      "volUsdt": 25813057,
-      "rank": 4
+      "symbol": "RIVER-USDT-SWAP",
+      "price": "1.3490",
+      "ema80": "1.2178",
+      "maxHigh": "1.4560",
+      "median": "1.3485",
+      "supportLow": "1.2410",
+      "holdBars": 3,
+      "changePercent": "0.00",
+      "volUsdt": 365290155,
+      "rank": 2
     },
     {
       "symbol": "MRVL-USDT-SWAP",
-      "price": "235.9700",
-      "ema80": "231.1588",
+      "price": "236.0100",
+      "ema80": "231.6254",
       "maxHigh": "241.9000",
       "median": "233.0550",
       "supportLow": "224.2100",
-      "holdBars": 16,
-      "changePercent": "-0.05",
-      "volUsdt": 19123063,
-      "rank": 5
+      "holdBars": 20,
+      "changePercent": "-0.03",
+      "volUsdt": 18003381,
+      "rank": 3
+    },
+    {
+      "symbol": "LAB-USDT-SWAP",
+      "price": "0.0729",
+      "ema80": "0.0636",
+      "maxHigh": "0.0864",
+      "median": "0.0790",
+      "supportLow": "0.0716",
+      "holdBars": 4,
+      "changePercent": "-6.70",
+      "volUsdt": 19634372,
+      "rank": 4
     }
   ]
 }
