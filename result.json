@@ -1,48 +1,35 @@
 {
-  "localTime": "2026/9/13 01:01:11",
-  "executionTime": "3.42秒",
-  "count": 3,
+  "localTime": "2026/9/13 04:01:16",
+  "executionTime": "5.31秒",
+  "count": 2,
   "symbols": [
     "ORDI-USDT-SWAP",
-    "BERA-USDT-SWAP",
     "OKB-USDT-SWAP"
   ],
   "details": [
     {
       "symbol": "ORDI-USDT-SWAP",
-      "price": "4.2330",
-      "ema80": "4.1085",
+      "price": "4.1720",
+      "ema80": "4.1150",
       "maxHigh": "4.5140",
       "median": "4.1930",
       "supportLow": "3.8720",
-      "holdBars": 10,
-      "changePercent": "1.46",
-      "volUsdt": 68990420,
+      "holdBars": 13,
+      "changePercent": "0.00",
+      "volUsdt": 71717710,
       "rank": 1
     },
     {
-      "symbol": "BERA-USDT-SWAP",
-      "price": "0.1974",
-      "ema80": "0.1839",
-      "maxHigh": "0.1980",
-      "median": "0.1974",
-      "supportLow": "0.1967",
-      "holdBars": 0,
-      "changePercent": "0.87",
-      "volUsdt": 75482009,
-      "rank": 2
-    },
-    {
       "symbol": "OKB-USDT-SWAP",
-      "price": "113.5200",
-      "ema80": "113.1924",
+      "price": "114.1100",
+      "ema80": "113.2909",
       "maxHigh": "118.3000",
       "median": "113.1650",
       "supportLow": "108.0300",
-      "holdBars": 40,
-      "changePercent": "-0.64",
-      "volUsdt": 1405654362,
-      "rank": 3
+      "holdBars": 43,
+      "changePercent": "-0.12",
+      "volUsdt": 1126214465,
+      "rank": 2
     }
   ]
 }
