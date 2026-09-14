@@ -1,6 +1,6 @@
 {
-  "localTime": "2026/9/14 04:00:56",
-  "executionTime": "5.37秒",
+  "localTime": "2026/9/14 08:01:06",
+  "executionTime": "4.38秒",
   "count": 1,
   "symbols": [
     "FIL-USDT-SWAP"
@@ -8,14 +8,14 @@
   "details": [
     {
       "symbol": "FIL-USDT-SWAP",
-      "price": "0.9667",
-      "ema80": "0.8581",
+      "price": "1.0024",
+      "ema80": "0.8708",
       "maxHigh": "1.0336",
       "median": "0.9824",
       "supportLow": "0.9312",
-      "holdBars": 3,
-      "changePercent": "1.63",
-      "volUsdt": 3991984023,
+      "holdBars": 7,
+      "changePercent": "5.38",
+      "volUsdt": 4680803905,
       "rank": 1
     }
   ]
