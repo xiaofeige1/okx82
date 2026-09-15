@@ -1,35 +1,22 @@
 {
-  "localTime": "2026/9/15 04:01:14",
-  "executionTime": "7.31秒",
-  "count": 2,
+  "localTime": "2026/9/15 08:01:19",
+  "executionTime": "7.62秒",
+  "count": 1,
   "symbols": [
-    "SOXS-USDT-SWAP",
-    "AAPL-USDT-SWAP"
+    "SOXS-USDT-SWAP"
   ],
   "details": [
     {
       "symbol": "SOXS-USDT-SWAP",
-      "price": "51.1000",
-      "ema80": "47.6866",
-      "maxHigh": "52.2100",
-      "median": "51.2000",
-      "supportLow": "50.1900",
-      "holdBars": 14,
-      "changePercent": "0.45",
-      "volUsdt": 10643721,
+      "price": "51.8100",
+      "ema80": "48.0757",
+      "maxHigh": "52.3000",
+      "median": "51.6700",
+      "supportLow": "51.0400",
+      "holdBars": 1,
+      "changePercent": "1.85",
+      "volUsdt": 11191331,
       "rank": 1
-    },
-    {
-      "symbol": "AAPL-USDT-SWAP",
-      "price": "331.4500",
-      "ema80": "330.9761",
-      "maxHigh": "336.0000",
-      "median": "332.3250",
-      "supportLow": "328.6500",
-      "holdBars": 18,
-      "changePercent": "-0.20",
-      "volUsdt": 9416266,
-      "rank": 2
     }
   ]
 }
