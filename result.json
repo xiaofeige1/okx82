@@ -1,7 +1,74 @@
 {
-  "localTime": "2026/9/16 12:00:54",
-  "executionTime": "7.89秒",
-  "count": 0,
-  "symbols": [],
-  "details": []
+  "localTime": "2026/9/17 01:01:04",
+  "executionTime": "6.75秒",
+  "count": 5,
+  "symbols": [
+    "ZEN-USDT-SWAP",
+    "NEAR-USDT-SWAP",
+    "ZEC-USDT-SWAP",
+    "DELL-USDT-SWAP",
+    "ARB-USDT-SWAP"
+  ],
+  "details": [
+    {
+      "symbol": "ZEN-USDT-SWAP",
+      "price": "6.8890",
+      "ema80": "6.4495",
+      "maxHigh": "7.8680",
+      "median": "6.9170",
+      "supportLow": "5.9660",
+      "holdBars": 1,
+      "changePercent": "1.86",
+      "volUsdt": 67736499,
+      "rank": 1
+    },
+    {
+      "symbol": "NEAR-USDT-SWAP",
+      "price": "2.6570",
+      "ema80": "2.4325",
+      "maxHigh": "2.7280",
+      "median": "2.4960",
+      "supportLow": "2.2640",
+      "holdBars": 56,
+      "changePercent": "1.45",
+      "volUsdt": 8644501,
+      "rank": 2
+    },
+    {
+      "symbol": "ZEC-USDT-SWAP",
+      "price": "1340.1500",
+      "ema80": "1188.9272",
+      "maxHigh": "1398.9900",
+      "median": "1333.7200",
+      "supportLow": "1268.4500",
+      "holdBars": 2,
+      "changePercent": "0.27",
+      "volUsdt": 284819713855,
+      "rank": 3
+    },
+    {
+      "symbol": "DELL-USDT-SWAP",
+      "price": "568.3000",
+      "ema80": "552.7152",
+      "maxHigh": "576.2500",
+      "median": "563.3350",
+      "supportLow": "550.4200",
+      "holdBars": 6,
+      "changePercent": "-0.25",
+      "volUsdt": 8839270,
+      "rank": 4
+    },
+    {
+      "symbol": "ARB-USDT-SWAP",
+      "price": "0.1652",
+      "ema80": "0.1498",
+      "maxHigh": "0.1746",
+      "median": "0.1529",
+      "supportLow": "0.1312",
+      "holdBars": 21,
+      "changePercent": "-1.67",
+      "volUsdt": 24115989,
+      "rank": 5
+    }
+  ]
 }
